@@ -105,6 +105,26 @@
     background-size: cover;
     clear: both;
     }
+
+    #hero-text {
+
+    color: #EBECF1;
+    font-size: 130%;
+    font-family: 'Noto Sans JP';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 340px;
+    height: 170px;
+    padding-top: 25px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 175px;
+    left: 50px;
+    position: absolute;
+        
+    }
+        
     
         
         
