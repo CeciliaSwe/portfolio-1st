@@ -42,6 +42,10 @@ Booking form (mock)
 ### Future features
 A booking form sending the data to the business owner
 Integrated feedback for course availability (available/few left/full)
+## Testing
+### Bugs
+* Opaque part of the hero textbox floats on top on the header while the image itself clears behind
+* Book button link on index page does not fill the div box - thus whole button is not clickable. Increased padding will increase clicking area but does not fully resolve issue
 ## Technologies
 * HTML5
 	* This project uses HTML5 as the main language for content and structure of the Website.
