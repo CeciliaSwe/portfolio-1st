@@ -57,7 +57,7 @@
     padding: 15px 13px;
     }
     
-    nav>ul {
+    #navbar>ul {
     
     display: flex;
     flex-direction: row;
@@ -66,7 +66,7 @@
     margin-right: 35px;
     }
     
-    li {
+    #navbar li {
 
     border: 2px solid transparent;
     border-radius: 5px;
@@ -179,12 +179,31 @@
         top: 10px;
     }
 
-    
-    
+    footer {
+        background-color: #262624;
+        height: 40px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
         
+    
+    }
+
+    /* Footer Social media links*/
+
+    #soc-media  {
+        margin: 0 auto;
+        display: inline-block;
+    }
+
+    #soc-media ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
         
-    
-    
-    
-    
+    }
+
+    }
     
