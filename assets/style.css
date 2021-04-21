@@ -27,16 +27,18 @@
     margin-left: 2%;
     margin-top: 5px;
     line-height: 75px;
-    border: 1px solid #fdfff5;
+    border: 1px solid transparent;
     border-radius: 20px;
     padding: 5px;
     color: #fdfff5;
+    text-decoration: none;
+    text-transform: uppercase;
     }
 
     #paw:hover {
 
     background-color: #92c56d;
-    color: #fdfff5;
+    color: #3c3e4a;
     }
         
 
