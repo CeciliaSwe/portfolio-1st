@@ -155,12 +155,12 @@
         letter-spacing: 2px;
         background-color: #92c56d; 
         padding: 50px;
-        color:tomato;
-        
-
-
     }
         
+    .index-textbox > a {
+        text-decoration: none;
+        color: #262624;
+    }
     
         
         
