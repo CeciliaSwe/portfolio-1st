@@ -32,6 +32,13 @@ header {
     color: white;
     }
 
+    #paw:hover {
+
+    background-color: #92c56d;
+    color: #3c3e4a;
+    }
+        
+
     /*Nav bar */
 
 #navbar {
