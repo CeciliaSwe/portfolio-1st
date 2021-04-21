@@ -96,7 +96,16 @@
     border-radius: 15px;
     }
 
+    /* Hero image and text*/
+
+    #hero-image {
+
+    height: 620px;
+    background: url("./images/lilo-bella.jpg") no-repeat center center;
+    background-size: cover;
+    clear: both;
     }
+    
         
         
     
