@@ -21,14 +21,16 @@ The project covers HTML and CSS with a user centric approach in mind.  A full li
 * As a Frequent user, I want to check if there are added content to the Inspiration page
 ### Structure
 All pages (Home, Courses, Inspiration and Book) were wireframed for Desktop, Tablet and smartphone using Balsamiq and are uploaded is a separate assets folder. 
-The Home page follows a Z-shape design with the hero image on top and important sections displayed inline, finishing with a button linking to the Book sheet.
-The Courses page displays overview information availabe without scrolling. Page links as well as scrolling enables expanded information further down on the page.
-The Inspiration page displays images at a glance an optional video playing.
-The Book page has clear sections with legend icons to aid identifying the information needed in the section.
+
+* The Home page follows a Z-shape design with the hero image on top and important sections displayed inline, finishing with a button linking to the Book sheet.
+* The Courses page displays overview information availabe without scrolling. Page links as well as scrolling enables expanded information further down on the page.
+* The Inspiration page displays images at a glance an optional video playing.
+* The Booking page has clear sections with legend icons to aid identifying the information needed in the section.
+
 No submenues are used and the navbar indicates to the user where they are at. Home page and courses page has direct links to the call to action - i.e. the book page.
 ### Design
 #### Color Scheme
-The Index page contains a large hero image. The color scheme consists of 2 shades of grey and 1 shade of green picked out from the image.
+The Index page contains a large hero image. The color scheme consists of 2 shades of grey (#3C3E4A and #BDC3C6) and 1 shade of green picked out from the image.
 #### Imagery
 #### Typography
 #### Wireframes
