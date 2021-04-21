@@ -22,14 +22,14 @@
     /*Paw icon link*/
 
     #paw {
-    font-size: 270%;
+    font-size: 200%;
     float: left;
     margin-left: 2%;
-    margin-top: 5px;
+    margin-top: 10px;
     line-height: 75px;
     border: 1px solid transparent;
     border-radius: 20px;
-    padding: 5px;
+    padding: 2px;
     color: #fdfff5;
     text-decoration: none;
     text-transform: uppercase;
