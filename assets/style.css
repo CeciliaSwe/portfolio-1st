@@ -29,6 +29,7 @@ header {
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px;
+    color: white;
     }
 
     /*Nav bar */
@@ -55,11 +56,20 @@ nav>ul {
     }
     
 li {
-    
+
     border: 2px solid transparent;
     border-radius: 5px;
     padding: 5px;
     }
+
+li a {
+
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 15px;
+    }
+        
     
     
     
