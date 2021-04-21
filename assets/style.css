@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fdfff5;
     }
 
 /*Header*/
@@ -26,16 +27,16 @@ header {
     margin-left: 2%;
     margin-top: 5px;
     line-height: 75px;
-    border: 1px solid white;
+    border: 1px solid #fdfff5;
     border-radius: 20px;
     padding: 5px;
-    color: white;
+    color: #fdfff5;
     }
 
     #paw:hover {
 
     background-color: #92c56d;
-    color: #3c3e4a;
+    color: #fdfff5;
     }
         
 
@@ -48,7 +49,7 @@ header {
     margin-right: 2%;
     left: 70%;
     display: inline-block;
-    border: 2px solid white;
+    border: 2px solid #fdfff5;
     border-radius: 30px;
     padding: 15px 13px;
     }
@@ -71,7 +72,7 @@ li {
 
 li a {
 
-    color: white;
+    color: #fdfff5;
     text-decoration: none;
     text-transform: uppercase;
     padding: 20px 15px;
