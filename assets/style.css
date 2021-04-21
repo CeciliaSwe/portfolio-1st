@@ -1,17 +1,17 @@
-* {
+    * {
     margin: 0;
     padding: 0;
     border: 0;
-}
+    }
 
-body {
+    body {
     font-family: 'Noto Sans JP', sans-serif;
     background-color: #fdfff5;
     }
 
-/*Header*/
+    /*Header*/
 
-header {
+    header {
     background-color: #3c3e4a;
     height: 100px;
     position: static;
@@ -19,9 +19,9 @@ header {
     left: 0;
     }
 
-/*Paw icon link*/
+    /*Paw icon link*/
 
-#paw {
+    #paw {
     font-size: 270%;
     float: left;
     margin-left: 2%;
@@ -42,7 +42,7 @@ header {
 
     /*Nav bar */
 
-#navbar {
+    #navbar {
 
     float: right;
     margin-top: 15px;
@@ -54,7 +54,7 @@ header {
     padding: 15px 13px;
     }
     
-nav>ul {
+    nav>ul {
     
     display: flex;
     flex-direction: row;
@@ -63,14 +63,14 @@ nav>ul {
     margin-right: 35px;
     }
     
-li {
+    li {
 
     border: 2px solid transparent;
     border-radius: 5px;
     padding: 5px;
     }
 
-li a {
+    li a {
 
     color: #fdfff5;
     text-decoration: none;
@@ -78,13 +78,24 @@ li a {
     padding: 20px 15px;
     }
 
-li a:hover {
+    li a:hover {
 
     background: #92c56d;
     border: 2px solid #92c56d;
     padding: 15px 13px;
     color: #3c3e4a;
     border-radius: 15px;
+    }
+
+    .active {
+    
+    background: #92c56d;
+    border: 2px solid #92c56d;
+    padding: 15px 13px;
+    color: #3c3e4a;
+    border-radius: 15px;
+    }
+
     }
         
         
