@@ -17,6 +17,20 @@ header {
     top: 0;
     left: 0;
     }
+
+/*Paw icon link*/
+
+#paw {
+    font-size: 270%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5px;
+    line-height: 75px;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    }
+    
     
     
     
