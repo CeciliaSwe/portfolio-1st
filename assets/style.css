@@ -14,7 +14,8 @@
     header {
     background-color: #3c3e4a;
     height: 100px;
-    position: static;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
     }
