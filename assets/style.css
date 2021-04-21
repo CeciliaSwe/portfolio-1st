@@ -51,7 +51,7 @@
     margin-top: 15px;
     margin-right: 2%;
     left: 70%;
-    display: inline-block;
+    
     border: 2px solid #fdfff5;
     border-radius: 30px;
     padding: 15px 13px;
@@ -179,8 +179,10 @@
         top: 10px;
     }
 
+    /* Footer*/
+
     footer {
-        background-color: #262624;
+        background-color: #3c3e4a;
         height: 40px;
         position: fixed;
         width: 100%;
@@ -205,5 +207,5 @@
         
     }
 
-    }
+    
     
