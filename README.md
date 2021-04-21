@@ -30,7 +30,7 @@ All pages (Home, Courses, Inspiration and Book) were wireframed for Desktop, Tab
 No submenues are used and the navbar indicates to the user where they are at. Home page and courses page has direct links to the call to action - i.e. the book page.
 ### Design
 #### Color Scheme
-The Index page contains a large hero image. The color scheme consists of 2 shades of grey (#3C3E4A and #BDC3C6) and 1 shade of green picked out from the image.
+The Index page contains a large hero image. The color scheme consists of 3 eartly colors; beige (#fdfff5) grey (#bdc3C6) and green (#92c58d) picked out from the hero image.
 #### Imagery
 #### Typography
 #### Wireframes
@@ -59,6 +59,9 @@ Integrated feedback for course availability (available/few left/full)
 	* Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
 * [balsamiq Wireframes](https://balsamiq.com/wireframes/)
 	* Balsamiq was used to create wireframes for 'The Skeleton Plane' stage of UX design.
+ * [Image Color Picker ](https://imagecolorpicker.com)
+	* The color picker was used to find 3 main colors from the hero image for use throughout the portfolio.
+	
 
 
 
