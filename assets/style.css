@@ -103,7 +103,7 @@
 
     #hero-image {
 
-        height: 450px;
+        height: 60vh;
         background: url("./images/lilo-bella.jpg") no-repeat center center;
         background-size: cover;
         clear: both;
@@ -137,12 +137,13 @@
         justify-content: center;
         justify-content: space-around;
         align-items: center;
+        
     }
 
     .index-flex1 {
 
         width: 30%; 
-        max-height: 200px;
+        height: 20vh;
         padding: 5px 15px;
         margin: 10px;
         border: 1px solid #262624;
@@ -160,7 +161,8 @@
 
     .index-flex1 > p {
         font-size: 90%;
-        margin-bottom: 6px;
+        padding-bottom: 3px;
+        
     }
 
     .index-flex2 {
