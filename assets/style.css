@@ -183,17 +183,14 @@
         height: 100%;
         text-align: center;
         border-radius: 15px;
+        text-decoration: none;
+        color: #262624;
+        text-align: center;
        
         
     }
         
-    .index-textbox > a {
-        text-decoration: none;
-        color: #262624;
-        text-align: center;
-        border-radius: 15px;
-        top: 10px;
-    }
+    
 
     /* Footer*/
 
