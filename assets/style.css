@@ -103,11 +103,11 @@
 
     #hero-image {
 
-        height: 60vh;
+        height: 50vh;
         background: url("./images/lilo-bella2.jpeg") no-repeat center center;
         clear: both;
         background-size: contain;
-        margin-bottom: 30px;
+        margin-bottom: 0px;
     }
 
     #hero-text {
@@ -123,8 +123,8 @@
         padding-top: 25px;
         padding-left: 10px;
         background-color: rgba(0, 0, 0, 0.4);
-        top: 18%;
-        left: 2%;
+        top: 22%;
+        right: 3%;
         position: absolute;
         
     }
@@ -144,7 +144,7 @@
 
         width: 30%; 
         height: 20vh;
-        padding: 5px 15px;
+        padding: 5px 15px 20px;
         margin: 10px;
         border: 1px solid #262624;
         border-radius: 15px;
