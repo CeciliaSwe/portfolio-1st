@@ -14,7 +14,7 @@
     header {
     background-color: #3c3e4a;
     height: 100px;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -224,39 +224,26 @@
 
     /* Courses - intro */
 
-    #background-image {
-        height: 225px;  
-        background: url("#") no-repeat center center;
-        opacity: 0.3;
-        clear: both;
+    
+    
+    #course-intro {
+        border: 1px solid red;
+        
     }
     
-    #div-courses-header {
-        color: #3c3e4a;
-        font-size: 250%;
-        font-family: 'Noto Sans JP';
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        width: 320px;
-        height: 200px;
-        position: absolute;
-        bottom: 500px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    
-    #courses-intro-box {
-        margin-top: 10px;
+    #courses-intro-flexbox {
+        
         width: 50%;
         height: 900px;
         padding-top: 40px;
         line-height: 250%;
-        border: 2px solid transparent;
+        border: 2px solid blue;
         margin: 0 auto;
-        position: relative;
+        
+        
     }
     
-    .intro-flex-normal {
+    .courses-intro-flex1 {
         border: 1px solid transparent;
         display: flex;
         justify-content: space-around;
