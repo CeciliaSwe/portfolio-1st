@@ -104,9 +104,9 @@
     #hero-image {
 
         height: 60vh;
-        background: url("./images/lilo-bella.jpg") no-repeat center center;
-        background-size: cover;
+        background: url("./images/lilo-bella2.jpeg") no-repeat center center;
         clear: both;
+        background-size: contain;
         margin-bottom: 30px;
     }
 
