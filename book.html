@@ -9,38 +9,142 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <title>Playful Paws</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <!-- To clear the form -->
+    <script>
+        function reloadPage() {
+            location.reload();
+        }
+    </script>
+
 </head>
 
 <body>
-  <!-- header with logolink and nav bar -->
-  <header>
-    <a href="index.html" id="paw">
-        <h2><i class="fas fa-paw"></i> Playful Paws</h2>
-    </a>
+    <!-- header with logolink and nav bar -->
+    <header>
+        <a href="index.html" id="paw">
+            <h2><i class="fas fa-paw"></i> Playful Paws</h2>
+        </a>
 
-    <nav id="navbar">
-        <ul>
-            <li>
-                <a href="index.html" class="active">Home</a>
-            </li>
-            <li>
-                <a href="courses.html">Courses</a>
-            </li>
-            <li>
-                <a href="inspiration.html">Inspiration</a>
-            </li>
-            <li>
-                <a href="book.html">Book</a>
-            </li>
-        </ul>
-    </nav>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="index.html" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="courses.html">Courses</a>
+                </li>
+                <li>
+                    <a href="inspiration.html">Inspiration</a>
+                </li>
+                <li>
+                    <a href="book.html">Book</a>
+                </li>
+            </ul>
+        </nav>
 
 
 
-</header>
-    <section>
+    </header>
+
+    <section id="book-section">
+        <div class=booking-box-out>
+            <div id="aside-img">
+                <img src="#" alt="Placerholder image of wood board">
+            </div>
+            <div class="booking-box">
+                <div class="form-book">
+                    <form>
+                        <fieldset>
+                            <legend><i class="far fa-user"></i></legend>
+                            <label for="field1"><span>First Name <span class="required">*</span></span><input
+                                    type="text" class="input-field" name="field1" value="" /></label>
+                            <label for="field2"><span>Last Name <span class="required">*</span></span><input type="text"
+                                    class="input-field" name="field2" value="" /></label>
+                            <label for="field3"><span>Email <span class="required">*</span></span><input type="email"
+                                    class="input-field" name="field3" value="" /></label>
+                            <label for="field4"><span>Age</span><input type="number" class="input-field" name="field4"
+                                    value="" /></label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><i class="fas fa-dog"></i></legend>
+                            <label for="field5"><span>Name <span class="required">*</span></span><input type="text"
+                                    class="input-field" name="field5" value="" /></label>
+                            <label for="field6"><span>Breed <span class="required">*</span></span><input type="text"
+                                    class="input-field" name="field6" value="" /></label>
+                            <label for="field7"><span>Age</span><input type="number" class="input-field" name="field7"
+                                    value="" /></label>
+                        </fieldset>
+
+                        <fieldset>
+                            <legend><i class="far fa-calendar-alt"></i> <i class="fas fa-check"></i></legend>
+                            <label for="field8"><span>Start date</span><select name="field8" class="select-field">
+                                    <option value="Leadership 1">Leadership 1</option>
+                                    <option value="Leadership 2">Leadership 2</option>
+                                    <option value="Leadership 3">Leadership 3</option>
+                                    <option value="Puppy 1">Puppy 1</option>
+                                    <option value="Puppy 2">Puppy 2</option>
+                                    <option value="Puppy 3">Puppy 3</option>
+                                    <option value="Kid & Dog 1">Kid & Dog 1</option>
+                                    <option value="Kid & Dog 2">Kid & Dog 2</option>
+                                    <option value="Kid & Dog 3">Kid & Dog 3</option>
+                                </select></label>
+                            <label><span> </span>
+                                <input type="button" value="Book" onclick="reloadPage()" id="book-button">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Stylesheet 
+            
+            <p>Box 1</p>
+            
+            </div>
+            
+            <div class="booking-box">
+            
+            <div class="booking-img-out">
+            
+            <div>Img Dog</div>
+            
+            </div>
+            
+            <div class="booking-form-out">
+            
+            Book form here
+            
+            </div>
+            
+            <p>Box 2</p>
+            
+            </div>
+            
+            <div class="booking-box">
+            
+            <div class="booking-img-out">
+            
+            <div>Start date form</div>
+            
+            </div>
+            
+            <div class="booking-form-out">
+            
+            Book button here
+            
+            </div>
+            
+            <p>Box 3</p>
+            
+            </div>
+            
+            </div>-->
 
     </section>
+
+
+
+
+
     <footer>
 
     </footer>
