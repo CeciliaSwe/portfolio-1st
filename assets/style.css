@@ -305,14 +305,17 @@
         color: inherit;
     }
 
+    #course-divider{ 
+        border: 5px double #3c3e4a;
+    }
     /* Image and text overlapping - long */
 
 .column {
 
-    margin-top: 100px;
+    
     width: 50%;
-    height: 950px;
-    padding: 5px;
+    height: 800px;
+    padding: 20px 5px;
     line-height: 250%;
     border: 2px solid yellow;
     margin: 0 auto;
