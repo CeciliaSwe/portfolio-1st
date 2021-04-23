@@ -356,13 +356,13 @@
     }
     
     #aside-img {
-        border: 1px solid red;
+        border: 1px solid transparent;
         width: 30%;
         height: 1000px;
         float: right;
         overflow: hidden;
-        margin-right: 100px;
-        margin-top: 45px;
+        margin-right: 10vw;
+        margin-top: 5vw;
     }
     
     .booking-box {
