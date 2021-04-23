@@ -103,7 +103,7 @@
 
     #hero-image {
 
-        height: 50vh;
+        height: 52vh;
         background: url("./images/lilo-bella2.jpeg") no-repeat center center;
         clear: both;
         background-size: contain;
@@ -137,6 +137,7 @@
         justify-content: center;
         justify-content: space-around;
         align-items: center;
+        margin-top: 3vh;
         
     }
 
@@ -211,7 +212,7 @@
         margin: 0 auto;
         position: relative;
     }
-    /*
+    
     .column-img {
     
         float: left;
@@ -274,13 +275,20 @@
     }
 
     /* Courses - intro */
-
-    
     
     #course-intro {
         border: 1px solid red;
-        margin: 2vh;
-        
+        margin: 2vh;  
+    }
+
+    #course-intro > h2 {
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 270%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #262624;  
     }
     
     #courses-intro-flexbox {
@@ -292,9 +300,7 @@
         height: 75vh;
         padding-top: 10px;
         border: 2px solid transparent;
-        margin: 0 auto;
-        
-        
+        margin: 0 auto;   
     }
     
     .courses-intro-flex1 {
@@ -307,8 +313,7 @@
         border-bottom: 5px double #3c3e4a;
         box-sizing: border-box;
         height: 32%;
-        align-items: center;
-        
+        align-items: center;   
     }
     
     #intro-flex-reverse {
@@ -328,8 +333,7 @@
     
     img {
         max-width: 100%;
-        max-height: 100%;
-        
+        max-height: 100%;  
     }
     
     #leadership-short-text {
