@@ -200,12 +200,13 @@
     footer {
         background-color: #3c3e4a;
         height: 40px;
-        position: fixed;
+        position: relative;
         width: 100%;
         bottom: 0;
         left: 0;
-        
-    
+        text-align: center;
+        padding: 25px 0px;
+        box-sizing: border-box;
     }
 
     /* Footer Social media links*/
