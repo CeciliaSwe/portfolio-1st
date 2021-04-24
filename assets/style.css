@@ -195,34 +195,7 @@
     
 
     
-    /* Footer*/
-
-    footer {
-        background-color: #3c3e4a;
-        height: 40px;
-        position: relative;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        text-align: center;
-        padding: 25px 0px;
-        box-sizing: border-box;
-    }
-
-    /* Footer Social media links*/
-
-    #soc-media  {
-        margin: 0 auto;
-        display: inline-block;
-    }
-
-    #soc-media ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style-type: none;
-        
-    }
+    
 
     /* Courses - intro */
     
@@ -461,6 +434,43 @@
         margin-left: 100px;
     }
 
-    
+    /* Footer*/
+
+    footer {
+        background-color: #3c3e4a;
+        height: 45px;
+        position: relative;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        padding top: 25px;
+        box-sizing: border-box;
+    }
+
+    /* Footer Social media links*/
+
+    #footer-socmedia {
+        margin: auto;
+      }
+      
+    #footer-socmedia a {
+        display: inline-block;
+        width: 75px;
+        height: 20px;
+        background-color: #3c3e4a;
+        border-radius: 2px;
+        font-size: 25px;
+        padding: 2px;
+        color: #e2e4d9;
+        text-align: center;
+        line-height: 35px;
+        margin-left: 25px;
+        margin-top: 3px;
+    }
+      
+    #footer-socmedia a:hover{
+        transform:scale(1.1); 
+    }
     
     
