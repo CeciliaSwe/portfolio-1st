@@ -327,6 +327,21 @@
         text-align: center;
     }
 
+    /*Inspiration video*/
+
+    #inspo-video-box {
+        height: 75vh;
+        border: 3px double green;
+        margin-top: 10vh;
+    }
+
+    iframe {
+        border: 3px double black;
+        height: 60vh;
+        width: 60vw;
+        margin: 0 auto;
+        display: block;
+     }
     /*Inspiration flexbox and images*/
 
     #inspo-flexbox {
@@ -351,13 +366,7 @@
         border: 3px solid blue;
     }
 
-    .inspo-img-vertical-1 {
-        object-fit: cover;
-        height: 70vh;  
-        
-
-    }
-    .inspo-img-vertical-2 {
+    .inspo-img-vertical {
         object-fit: cover;
         height: 70vh;  
         
