@@ -191,8 +191,17 @@
         text-align: center;    
     }
 
-    
-    
+    /* All sheet h2 except index sheet*/
+
+    .sheet-h2 { 
+        text-transform: uppercase;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 270%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        color: #262624; 
+        }
 
     
     
@@ -327,11 +336,13 @@
         text-align: center;
     }
 
+    
+
     /*Inspiration video*/
 
     #inspo-video-box {
-        height: 75vh;
-        border: 3px double green;
+        height: 65vh;
+        border-bottom: 3px double black;
         margin-top: 10vh;
     }
 
@@ -347,15 +358,15 @@
     #inspo-flexbox {
         display: flex;
         width: 75vw;
-        border: 1px solid black;
-        margin: 30vh auto;
+        border: 1px solid transparent;
+        margin: 5vh auto;
     }
 
     .inspo-flex-1 {
         width: 30%;
         height: 70vh;
         box-sizing: border-box;
-        border: 3px solid red;
+        border: 3px solid transparent;
         margin: 0 8px;
     }
 
@@ -363,7 +374,7 @@
         width: 40%;
         height: 70vh;
         box-sizing: border-box;
-        border: 3px solid blue;
+        border: 3px solid transparent;
     }
 
     .inspo-img-vertical {
