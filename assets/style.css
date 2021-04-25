@@ -284,52 +284,96 @@
     }
     /* Image and text overlapping - long */
 
-.column {
+    .column {
+        width: 50%;
+        height: 800px;
+        padding: 20px 5px;
+        line-height: 250%;
+        border: 2px solid yellow;
+        margin: 0 auto;
+        position: relative;
+    }
 
-    
-    width: 50%;
-    height: 800px;
-    padding: 20px 5px;
-    line-height: 250%;
-    border: 2px solid yellow;
-    margin: 0 auto;
-    position: relative;
-}
+    .column-img {
+        float: left;
+        width: 30%;
+        margin: 40px;
+        border: 1px solid transparent;
+        object-fit: cover;
+    }
 
-.column-img {
+    #img-stitch {
+        border: 1px solid black;
+    }
 
-    float: left;
-    width: 30%;
-    margin: 40px;
-    border: 1px solid transparent;
-    object-fit: cover;
-}
+    .column-text {
+        position: absolute;
+        left: 22%;
+        top: 22%;
+        width: 70%;
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 10px;
+        line-height: 200%;
+        box-sizing: border-box;
+        border: 1px solid #262624;
+        box-shadow: 5px 10px 18px #888888;
+        border-radius: 15px;
+        background-color: #fdfff5;
+        z-index: -1;
+    }
 
-#img-stitch {
-    border: 1px solid black;
-}
+    .column-text h2 {
+        text-align: center;
+    }
 
-.column-text {
-    position: absolute;
-    left: 22%;
-    top: 22%;
-    width: 70%;
-    padding-left: 160px;
-    padding-right: 160px;
-    padding-top: 10px;
-    line-height: 200%;
-    box-sizing: border-box;
-    border: 1px solid #262624;
-    box-shadow: 5px 10px 18px #888888;
-    border-radius: 15px;
-    background-color: #fdfff5;
-    z-index: -1;
-}
+    /*Inspiration flexbox and images*/
 
-.column-text h2 {
-    text-align: center;
-}
+    #inspo-flexbox {
+        display: flex;
+        justify-content: space-evenly;
+        width: 65vw;
+        border: 1px solid black;
+        margin: 30vh auto;
+    }
 
+    .inspo-flex-1 {
+        width: 30%;
+        height: 70vh;
+        box-sizing: border-box;
+        border: 3px solid red;
+    }
+
+    .inspo-flex-2 {
+        width: 40%;
+        height: 70vh;
+        box-sizing: border-box;
+        border: 3px solid blue;
+    }
+
+    .inspo-img-vertical {
+        object-fit: cover;
+        height: 70vh;
+      
+        
+
+    }
+
+    .inspo-img-horizontal-1 {
+        height: 34vh;
+        object-fit: cover;
+        overflow: hidden;
+        box-sizing: border-box;
+        
+    }
+
+    .inspo-img-horizontal-2 {
+        height: 34vh;
+        object-fit: cover;
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-top: 8px;
+    }
   
     /* Book form outer blocks*/
 
@@ -444,7 +488,6 @@
         bottom: 0;
         left: 0;
         text-align: center;
-        padding top: 25px;
         box-sizing: border-box;
     }
 
