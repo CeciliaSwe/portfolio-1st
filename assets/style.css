@@ -376,6 +376,7 @@
         height: 70vh;
         box-sizing: border-box;
         border: 3px solid transparent;
+        
     }
 
     .inspo-img-vertical {
@@ -391,9 +392,39 @@
     .inspo-img-horizontal-2 {
         height: 34vh;
         object-fit: cover;
-        margin-top: 8px;
+        margin-bottom: 8px;
+        
     }
-  
+    /* Media queries Inspiration sheet*/
+
+    @media only screen and (max-width: 600px) {
+
+    #inspo-flexbox { 
+        flex-flow: row wrap;
+        width: 75vw;
+        border: 1px solid transparent;
+        margin: 5vh auto; 
+    }   
+
+    .inspo-flex-1 {
+        order: 1;
+        width: 48%;
+        height: 40vh;
+        margin: 0 auto;
+        border: 2px solid transparent;
+    }
+
+    .inspo-flex-2 {
+        order: 2;
+        width: 90%;
+        height: 22vh;
+        margin: 1vh auto;
+        border: 2px solid red
+       
+    }
+    }
+
+
     /* Book form outer blocks*/
 
     #book-section h2 {
@@ -540,5 +571,6 @@
     #footer-socmedia a:hover{
         transform:scale(1.1); 
     }
+
     
     
