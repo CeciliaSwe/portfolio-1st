@@ -69,8 +69,12 @@ Integrated feedback for course availability (available/few left/full)
 	
 ## Acknowledgements
 ### Images
-* Image on book page: Photo by Richard Brutyo on Unsplash photo on book page![image](https://user-images.githubusercontent.com/81182642/115830212-450f6180-a410-11eb-8eb2-a215f6c25306.png)
+* Image on book page: Photo by Richard Brutyo on Unsplash photo
 * Image on index page: own photo
+* Imgaes on courses page: own photos
+* Images on inspiration page: https://www.hdwallpaper.nu/
+* Video on Inspiration page: embedded from YouTube
+
 ### Inspiration
 * Form filedsets (ledgend style and inline display of label and input field): https://www.sanwebe.com/2014/08/css-html-forms-designs
 
