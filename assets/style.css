@@ -395,35 +395,7 @@
         margin-bottom: 8px;
         
     }
-    /* Media queries Inspiration sheet*/
-
-    @media only screen and (max-width: 600px) {
-
-    #inspo-flexbox { 
-        flex-flow: row wrap;
-        width: 75vw;
-        border: 1px solid transparent;
-        margin: 5vh auto; 
-    }   
-
-    .inspo-flex-1 {
-        order: 1;
-        width: 48%;
-        height: 40vh;
-        margin: 0 auto;
-        border: 2px solid transparent;
-    }
-
-    .inspo-flex-2 {
-        order: 2;
-        width: 90%;
-        height: 22vh;
-        margin: 1vh auto;
-        border: 2px solid red
-       
-    }
-    }
-
+   
 
     /* Book form outer blocks*/
 
@@ -573,4 +545,53 @@
     }
 
     
-    
+  /* Media queries Inspiration sheet*/
+
+  @media only screen and (max-width: 600px) {
+
+    #inspo-flexbox { 
+        flex-flow: row wrap;
+        width: 75vw;
+        border: 1px solid transparent;
+        margin: 5vh auto; 
+    }   
+
+    .inspo-flex-1 {
+        order: 1;
+        width: 48%;
+        height: 40vh;
+        margin: 0 auto;
+        border: 2px solid transparent;
+    }
+
+    .inspo-flex-2 {
+        order: 2;
+        width: 90%;
+        height: 22vh;
+        margin: 1vh auto;
+        border: 2px solid transparent  
+    }
+    /*Media query footer*/
+
+    footer {
+        position:absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    /*video*/
+    #inspo-video-box {
+        height: 25vh;
+        border-bottom: 3px double black;
+        margin-top: 5vh;
+    }
+
+    iframe {
+        border: 3px double black;
+        height: 20vh;
+        width: 80vw;
+        margin: 0 auto;
+        display: block;
+     }
+    }
+   
