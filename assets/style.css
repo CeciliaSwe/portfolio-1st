@@ -601,11 +601,11 @@
             float: none;
             margin: 0 auto;
             padding: 5px 5px;
-            max-width: 80vw;
+            max-width: 95vw;
         }
 
         #navbar>ul {
-            margin: 0 10px;
+            justify-content: center;
         }
 
         #navbar li {
@@ -613,7 +613,7 @@
         }
 
         li a {
-            padding: 10px 5px;
+            padding: 10px 1px;
         }
 
         .active {
