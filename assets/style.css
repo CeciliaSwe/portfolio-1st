@@ -582,16 +582,54 @@
     /*video*/
     #inspo-video-box {
         height: 25vh;
-        border-bottom: 3px double black;
         margin-top: 5vh;
     }
 
     iframe {
-        border: 3px double black;
         height: 20vh;
-        width: 80vw;
-        margin: 0 auto;
-        display: block;
-     }
+        width: 80vw; 
+    }
+
+    
+
+    /*Paw icon link*/
+
+    header {
+        height: 300px;
+    }
+
+    #paw {
+        font-size: 150%;
+        float: none;
+        text-align: center;
+        line-height: 30px;
+        
+        }
+
+    /*Nav bar */
+
+    #navbar {
+        float: none;
+        margin-top: 5px;
+        text-align: center;
+        padding: 5px 5px;
+    }
+    
+    #navbar>ul {
+    margin: 0 10px;
+    }
+    
+    #navbar li {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 2px;
+    }
+
+    .active {
+        padding: 5px 5px;   
+    }
+
+
+
     }
    
