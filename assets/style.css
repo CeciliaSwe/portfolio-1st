@@ -307,7 +307,7 @@
     .column-img {
         float: left;
         width: 30%;
-        margin: 40px;
+        margin: 3%;
         border: 1px solid transparent;
         object-fit: cover;
     }
@@ -318,7 +318,7 @@
 
     .column-text {
         position: absolute;
-        left: 22%;
+        left: 18%;
         top: 22%;
         width: 70%;
         padding-left: 160px;
