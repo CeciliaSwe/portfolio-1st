@@ -611,6 +611,7 @@
 
         #navbar>ul {
             justify-content: center;
+            margin-right: 0px;
         }
 
         #navbar li {
