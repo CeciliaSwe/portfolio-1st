@@ -69,8 +69,11 @@ Integrated feedback for course availability (available/few left/full)
 ## Testing
 ### Bugs
 * Opaque part of the hero textbox floats on top on the header while the image itself clears behind
+	* Fixed by setting header to absolute instead of fixed	
 * Book button link on index page does not fill the div box - thus whole button is not clickable. Increased padding will increase clicking area but does not fully resolve issue
 	* Fixed by wrapping anchor element in the flex item div and set display to inline-block and weight and height to 100%
+* Scewed alignment of navbar ul for <600 px
+	* Fixed by removing right side margin for media query only
 ## Technologies
 * HTML5
 	* This project uses HTML5 as the main language for content and structure of the Website.
