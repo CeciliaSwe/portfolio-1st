@@ -261,7 +261,7 @@
         border: none;
     }
 
-    #img-intro-box {
+    .courses-intro-img {
         width: 15%;
         height: 150px;
         border: 1px solid transparent;
@@ -277,7 +277,7 @@
         display: none;
     }
 
-    #leadership-short-text {
+    .leadership-short-text {
         width: 70%;
         padding: 5px;
         border: 1px solid transparent;
@@ -285,7 +285,7 @@
         font-size: small;
     }
 
-    #leadership-short-text h2 {
+    .leadership-short-header {
         text-transform: uppercase;
         margin-bottom: 5px;
     }
@@ -638,7 +638,7 @@
             height: 15vh;
         }
 
-        #hero-text {
+        #hero-text-box {
             font-size: 60%;
             letter-spacing: 2px;
             width: 25vw;
@@ -685,43 +685,43 @@
         
 
         #course-intro {
-        border: 1px solid red;
-        margin: 2vh;
-    }
+            border: 1px solid red;
+            margin: 2vh;
+        }
 
-    #course-intro>h2 {
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 2px;
-        font-size: 270%;
-        margin-top: 10px;
-        margin-bottom: 5px;
-        color: #262624;
-    }
+        #course-intro>h2 {
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 2px;
+            font-size: 270%;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            color: #262624;
+        }
 
-    #courses-intro-flexbox {
-        width: 80vw;
-        height: 85vh;
-    }
+        #courses-intro-flexbox {
+            width: 80vw;
+            height: 85vh;
+        }
 
-    #intro-flex-reverse {
-        flex-direction: row;
-    }
+        #intro-flex-reverse {
+            flex-direction: row;
+        }
 
 
-    #img-intro-box {
-        display: none;
-    }
+        .courses-intro-img {
+            display: none;
+        }
 
-    img {
-        display: none;
-    }
+        img {
+            display: none;
+        }
 
     .leadership-short-header > i {
         display: inline;
     }
 
-    #leadership-short-text {
+    .leadership-short-text {
         width: 70%;
         padding: 5px;
         border: 1px solid transparent;
@@ -729,7 +729,7 @@
         font-size: small;
     }
 
-    #leadership-short-text h2 {
+    .leadership-short-text h2 {
         text-transform: uppercase;
         margin-bottom: 5px;
     }
