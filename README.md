@@ -13,14 +13,38 @@ The project covers HTML and CSS with a user centric approach in mind.  A full li
 * As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the organisation and what they offer.
 * As a First Time user, I want to effortlessly navigate throughout the site to find content.
 * As a First Time user, I want to view the website and content clearly on different size devices.
-* As a First Time user, I want to find contact details for additonal information or questions.
 #### Returning Visitor Goals
 * As a Returning user, I want to be able to book a course.
-* As a Returning user, I want to contact the organisation.
 #### Frequent Visitor Goals
 * As a Frequent user, I want to check if there are added content to the Inspiration page
+
+
+
 ### Structure
+
 All pages (Home, Courses, Inspiration and Book) were wireframed for Desktop, Tablet and smartphone using Balsamiq and are uploaded is a separate assets folder. 
+
+The header has a paw icon and the name "Playful Paws",  directly indication the company segment.
+The landing page has a large hero image of dogs with a textbox declaring "Leadership Courses". Textboxes with limited text declared both the philosphy and more about the company without scrolling.
+
+The purpose of this is to fulfill user story:
+>As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the organisation and what they offer.
+
+
+All pages has Navigation menu at the top of the page that directs them to a new page. The active page will be highlighted in a green color to contrast the dark header.
+The navigation menu will remain fully visible on all devices due to its limited size but will centered for smaller devices. The index (home) page and courses page also has large links to the book page in the same green contrast color as the active page to improve the call to action.
+The intro section on the Courses page has internal links to each longer section for the course to give users who know what they are looking for direct access without scrolling.
+
+The purpose of this is to fulfill user story:
+> As a First Time user, I want to effortlessly navigate throughout the site to find content.
+
+
+Custom CSS is used to make the Website responsive by the use of media queries with cut-offs at <600px and <XXXpx.
+Text and images that will not display visually appealing on small devices will be disabled or replaces (for example, on mobile devices the small images in the courses page intro section are replaced by dog icons and the image on the book page is removed). 
+
+The purpose of this is to fulfill user story:
+> As a First Time user, I want to view the website and content clearly on different size devices.
+
 
 * The Home page follows a Z-shape design with the hero image on top and important sections displayed inline, finishing with a button linking to the Book sheet.
 * The Courses page displays overview information availabe without scrolling. Page links as well as scrolling enables expanded information further down on the page.
