@@ -303,59 +303,59 @@
 
     /* Image and text overlapping - long */
 
-    .column {
-        width: 50%;
-        height: 900px;
-        padding: 20px 5px;
-        line-height: 250%;
-        border: 2px solid transparent;
-        margin: 0 auto;
-        position: relative;
-        
+    #courses-long-flexbox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-
-    .column-img {
-        float: left;
+      
+    .courses-long-flex1{
+        border-bottom: 3px double #3c3e4a;
+        width: 50vw;
+    }
+      
+    .courses-long-img {
         width: 30%;
-        margin: 3%;
-        border: 1px solid transparent;
-        object-fit: cover;
+        position: relative;
+        left: 5%;
+        top: 150px; 
     }
-
-    
-
-    .column-text {
-        position: absolute;
-        left: 18%;
-        top: 15%;
-        width: 70%;
-        padding: 10px 160px 15px 180px;
-        line-height: 200%;
-        box-sizing: border-box;
-        border: 1px solid #262624;
-        box-shadow: 5px 10px 18px #888888;
+      
+    .courses-long-text {
+        border: 1px solid black;
         border-radius: 15px;
-        background-color: #fdfff5;
-        z-index: -1;
-        
+        box-shadow: 5px 10px 18px #888888;
+        width: 50%;
+        margin: 0px auto 120px auto;
+        padding: 20px 60px 0px 60px;
     }
-
-    .column-text h2 {
+      
+    .courses-long-text h2{
+        text-transform: uppercase;
         text-align: center;
     }
 
-    .course-book-box {
+    .courses-long-text h3{
+       margin-top: 6vh;
+    }
+      
+    .courses-long-text p{
+        text-align: center;
+        margin: 3vh 0;
+    }
+      
+    .course-book-box{
         width: 75%;
-        height: 40px;
+        height: 50px;
         border: 1px solid #262624;
         border-radius: 15px;
         box-shadow: 5px 10px 18px #888888;
         text-align: center;  
-        margin-top: 20px; 
+        margin: 30px auto;
     }
-
+      
     #course-book-link {
-        font-size: 40px;
+       font-size: 30px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -367,11 +367,7 @@
         text-decoration: none;
         color: #262624;
         margin: 0 auto;
-        
-        
-        
-        
-    }
+      }
 
 
 
