@@ -74,6 +74,9 @@ Integrated feedback for course availability (available/few left/full)
 	* Fixed by wrapping anchor element in the flex item div and set display to inline-block and weight and height to 100%
 * Scewed alignment of navbar ul for <600 px
 	* Fixed by removing right side margin for media query only
+* Book link buttons display as hyperlink but are not clickabe on courses - long section. 
+*	* Bug appreas to be caused by position: absolute and a z-index for the div. Fixed by changing positioning from absolute to relative and setting the img div to absolute instead (in order to retain the overlap)
+
 ## Technologies
 * HTML5
 	* This project uses HTML5 as the main language for content and structure of the Website.
