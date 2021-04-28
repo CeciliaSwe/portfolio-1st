@@ -820,7 +820,40 @@
 
 
     /* Courses long section */
+       
+      
+        .courses-long-flex1{
+            border-bottom: 3px double #3c3e4a;
+            width: 85vw;
+        }
+      
+        .courses-long-img {
+            width: 50%;
+            position: static;
+            margin: 3vh auto;
+        }
+      
+        .courses-long-text {
+            border: none;
+            box-shadow: none;
+            width: 90%;
+            margin: 0 auto;
+            padding: 0px;
+        }
 
+        .courses-long-text h2{
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration: underline;
+        }
+    
+        .courses-long-text h3{
+           margin-top: 1vh;
+           font-size: large;
+        }
+          
+        
+    
     
 
         /*Book sheet*/
