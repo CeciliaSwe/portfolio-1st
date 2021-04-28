@@ -308,7 +308,7 @@
         height: 900px;
         padding: 20px 5px;
         line-height: 250%;
-        border: 2px solid yellow;
+        border: 2px solid transparent;
         margin: 0 auto;
         position: relative;
         
@@ -322,9 +322,7 @@
         object-fit: cover;
     }
 
-    #img-stitch {
-        border: 1px solid black;
-    }
+    
 
     .column-text {
         position: absolute;
@@ -736,13 +734,13 @@
     /* Courses long section */
 
     .column {
-        width: 85%;
+        width: 90%;
         display: flex;
         flex-direction: column;  
         justify-content: center;
         align-items: center;
         margin-top: 4vh;
-        margin-bottom: 4vh;
+        margin-bottom: 7vh;
         height: auto;  
     }
 
@@ -754,16 +752,20 @@
     }
 
     .column-text {
-        width: 75vw;
+        width: 95vw;
         padding: 15px 30px;
         position: static;  
         display: flex;
         flex-direction: column;
-        align-items: center;    
+        align-items: center;  
+        border: none;
+        box-shadow: none;
+          
     }
 
     .column-text h2 {
         text-transform: uppercase;
+        text-decoration: underline;
     }
 
         /*Book sheet*/
