@@ -648,12 +648,14 @@
             position: absolute;
         }
 
-        #hero-text-full {
+        #hero-text-box {
             display: none;
         }
 
-        #hero-text-short {
-            display: inline;
+        #hero-text-out {
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 2px;
         }
 
     /* Index textboxes and book link*/
@@ -664,6 +666,10 @@
             
         }
 
+        #index-flexbox h2 {
+            font-size: large;
+
+        }
         .index-flex1 {
             width: 85vw;
             height: 19vh;
@@ -781,12 +787,14 @@
         .booking-box {
             
             width: 90vw;
-            margin: 40px auto;
+            margin: 40px 0px;
             
         }
     
         /* Book form fieldset styling */
-    
+        
+        
+
         .form-book {
             max-width: 85vw;
         }
