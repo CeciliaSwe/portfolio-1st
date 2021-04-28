@@ -130,7 +130,7 @@
 
     }
 
-    #hero-text-short {
+    #hero-text-out {
         display: none;
     }
 
@@ -581,6 +581,104 @@
         transform: scale(1.1);
     }
 
+    /*Media queries 600 - 950px */
+    @media only screen and (min-device-width : 600px) and (max-device-width : 950px){
+
+        /*Paw icon link*/
+
+        #paw {
+            font-size: 100%;
+       
+        }
+
+        /*Nav bar */
+
+        #navbar {
+            padding: 5px 5px;
+            margin-top: 27px;
+        }
+
+        #navbar>ul {
+            margin-right: 0px;
+        }
+        
+        #navbar li {
+            padding: 2px;
+        }
+
+        li a {
+            padding: 10px 1px;
+        }
+
+        .active {
+            padding: 5px 5px;
+        }
+
+        li a:hover {
+            padding: 5px 5px;
+        }
+
+        /*Index page*/
+
+        #hero-image {
+            height: 32vh;
+        }
+
+        #hero-text-box {
+            display: none;
+        }
+
+        #hero-text-out {
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            display: block;
+            text-align: center;
+        }
+
+    /* Index textboxes and book link*/
+
+        #index-flexbox {
+            flex-direction: column;
+            margin: 0px;   
+        }
+
+        #index-flexbox h2 {
+            font-size: large;
+        }
+    
+        .index-flex1 {
+            width: 85vw;
+            height: 19vh;
+            padding: 5px 30px 25px 30px;
+            margin-bottom: 5px;
+        }
+
+        .index-flex2 {
+            width: 50vw;
+            margin: 8px 0px;
+        }
+
+        #button-link {
+            font-size: 40px;
+        }
+
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
 
     /* Media queries <600px */ 
 
@@ -634,18 +732,7 @@
         /* Hero image and text*/
 
         #hero-image {
-            height: 15vh;
-        }
-
-        #hero-text-box {
-            font-size: 60%;
-            letter-spacing: 2px;
-            width: 25vw;
-            height: 10vh;
-            padding: 5px 7px;
-            top: 2vh;
-            right: 12vw;
-            position: absolute;
+            height: 20vh;
         }
 
         #hero-text-box {
@@ -662,14 +749,13 @@
 
         #index-flexbox {
             flex-direction: column;
-            margin: 0px;
-            
+            margin: 0px;   
         }
 
         #index-flexbox h2 {
             font-size: large;
-
         }
+        
         .index-flex1 {
             width: 85vw;
             height: 19vh;
