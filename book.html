@@ -9,12 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <title>Playful Paws</title>
     <link rel="stylesheet" href="./assets/style.css">
-    <!-- To clear the form -->
-    <script>
-        function reloadPage() {
-            location.reload();
-        }
-    </script>
+   
 
 </head>
 
@@ -53,32 +48,33 @@
             </div>
             <div class="booking-box">
                 <div class="form-book">
-                    <form>
+                    <form method="get">
                         <fieldset>
                             <legend><i class="far fa-user"></i></legend>
-                            <label for="field1"><span>First Name <span class="required">*</span></span><input
-                                    type="text" class="input-field" name="field1" value="" /></label>
-                            <label for="field2"><span>Last Name <span class="required">*</span></span><input type="text"
-                                    class="input-field" name="field2" value="" /></label>
-                            <label for="field3"><span>Email <span class="required">*</span></span><input type="email"
-                                    class="input-field" name="field3" value="" /></label>
+                            <label for="field1"><span>First Name <span>*</span></span><input
+                                    type="text" class="input-field" name="field1" required /></label>
+                            <label for="field2"><span>Last Name <span>*</span></span><input type="text"
+                                    class="input-field" name="field2" required /></label>
+                            <label for="field3"><span>Email <span>*</span></span><input type="email"
+                                    class="input-field" name="field3" required/></label>
                             <label for="field4"><span>Age</span><input type="number" class="input-field" name="field4"
                                     value="" /></label>
                         </fieldset>
 
                         <fieldset>
                             <legend><i class="fas fa-dog"></i></legend>
-                            <label for="field5"><span>Name <span class="required">*</span></span><input type="text"
-                                    class="input-field" name="field5" value="" /></label>
-                            <label for="field6"><span>Breed <span class="required">*</span></span><input type="text"
-                                    class="input-field" name="field6" value="" /></label>
+                            <label for="field5"><span>Name <span>*</span></span><input type="text"
+                                    class="input-field" name="field5" required /></label>
+                            <label for="field6"><span>Breed <span>*</span></span><input type="text"
+                                    class="input-field" name="field6" required /></label>
                             <label for="field7"><span>Age</span><input type="number" class="input-field" name="field7"
                                     value="" /></label>
                         </fieldset>
 
                         <fieldset>
                             <legend><i class="far fa-calendar-alt"></i> <i class="fas fa-check"></i></legend>
-                            <label for="field8"><span>Start date</span><select name="field8" class="select-field">
+                            <label for="field8"><span>Start date</span><select name="field8" required class="select-field" >
+                                    <option value="">Pick a start date</option>    
                                     <option value="Leadership 1">Leadership 1</option>
                                     <option value="Leadership 2">Leadership 2</option>
                                     <option value="Leadership 3">Leadership 3</option>
@@ -90,7 +86,7 @@
                                     <option value="Kid & Dog 3">Kid & Dog 3</option>
                                 </select></label>
                             <label><span> </span>
-                                <input type="button" value="Book" onclick="reloadPage()" id="book-button">
+                                <input type="submit" value="Book" id="book-button">
                     </form>
                 </div>
             </div>
