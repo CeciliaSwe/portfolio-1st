@@ -150,7 +150,7 @@
     .index-flex1 {
 
         width: 30%;
-        height: 20vh;
+        height: fit-content;
         padding: 5px 15px 20px;
         margin: 10px;
         border: 1px solid #262624;
@@ -215,7 +215,7 @@
     /* Courses - intro */
 
     #course-intro {
-        border: 1px solid red;
+        border: 1px solid transparent;
         margin: 2vh;
     }
 
@@ -318,7 +318,7 @@
     .courses-long-img {
         width: 30%;
         position: relative;
-        left: 5%;
+        left: 2%;
         top: 150px; 
     }
       
@@ -337,7 +337,7 @@
     }
 
     .courses-long-text h3{
-       margin-top: 6vh;
+       margin-top: 10vh;
     }
       
     .courses-long-text p{
@@ -664,6 +664,7 @@
 
         .index-flex1 > p {
             margin-top: 2vh;
+            font-size: 100%;
         }
 
         #button-link {
@@ -750,8 +751,12 @@
 
         #hero-text-out {
             text-transform: uppercase;
+            text-decoration: underline;
+            font-size: x-large;
+            margin-bottom: 1vh;
+            letter-spacing: 1px;
+            display: block;
             text-align: center;
-            letter-spacing: 2px;
         }
 
     /* Index textboxes and book link*/
@@ -767,7 +772,6 @@
         
         .index-flex1 {
             width: 85vw;
-            height: 19vh;
             padding: 5px 8px 25px 8px;
             margin-bottom: 5px;
         }
