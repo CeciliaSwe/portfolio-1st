@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <title>Playful Paws</title>
     <link rel="stylesheet" href="./assets/style.css">
-   
+
 
 </head>
 
@@ -51,30 +51,38 @@
                     <form method="get">
                         <fieldset>
                             <legend><i class="far fa-user"></i></legend>
-                            <label for="field1"><span>First Name <span>*</span></span><input
-                                    type="text" class="input-field" name="field1" required /></label>
-                            <label for="field2"><span>Last Name <span>*</span></span><input type="text"
-                                    class="input-field" name="field2" required /></label>
-                            <label for="field3"><span>Email <span>*</span></span><input type="email"
-                                    class="input-field" name="field3" required/></label>
-                            <label for="field4"><span>Age</span><input type="number" class="input-field" name="field4"
-                                    value="" /></label>
+                            <label for="field1"> <span> First Name * </span>
+                                <input type="text" class="input-field" id="field1" name="first_name" required />
+                            </label>
+                            <label for="field2"> <span> Last Name * </span>
+                                <input type="text" class="input-field" id="field2" name="last_name" required />
+                            </label>
+                            <label for="field3"> <span> Email * </span>
+                                <input type="email" class="input-field" id="field3" name="email" required />
+                            </label>
+                            <label for="field4"> <span> Age </span>
+                                <input type="number" class="input-field" id="field4" name="age_human" />
+                            </label>
                         </fieldset>
 
                         <fieldset>
                             <legend><i class="fas fa-dog"></i></legend>
-                            <label for="field5"><span>Name <span>*</span></span><input type="text"
-                                    class="input-field" name="field5" required /></label>
-                            <label for="field6"><span>Breed <span>*</span></span><input type="text"
-                                    class="input-field" name="field6" required /></label>
-                            <label for="field7"><span>Age</span><input type="number" class="input-field" name="field7"
-                                    value="" /></label>
+                            <label for="field5"><span>Name *</span>
+                                <input type="text" class="input-field" id="field5" name="dog_name" required />
+                            </label>
+                            <label for="field6"><span>Breed *</span>
+                                <input type="text" class="input-field" id="field6" name="breed" required />
+                            </label>
+                            <label for="field7"><span>Age</span>
+                                <input type="number" class="input-field" id="field7" name="age_dog" />
+                            </label>
                         </fieldset>
 
                         <fieldset>
                             <legend><i class="far fa-calendar-alt"></i> <i class="fas fa-check"></i></legend>
-                            <label for="field8"><span>Start date</span><select name="field8" required class="select-field" >
-                                    <option value="">Pick a start date</option>    
+                            <label for="field8"><span>Start date</span>
+                                <select id="field8" required class="select-field" name="start_date">
+                                    <option value="">Pick a start date</option>
                                     <option value="Leadership 1">Leadership 1</option>
                                     <option value="Leadership 2">Leadership 2</option>
                                     <option value="Leadership 3">Leadership 3</option>
@@ -84,9 +92,11 @@
                                     <option value="Kid & Dog 1">Kid & Dog 1</option>
                                     <option value="Kid & Dog 2">Kid & Dog 2</option>
                                     <option value="Kid & Dog 3">Kid & Dog 3</option>
-                                </select></label>
-                            <label><span> </span>
-                                <input type="submit" value="Book" id="book-button">
+                                </select>
+                            </label>
+
+                            <input type="submit" value="Book" id="book-button">
+                        </fieldset>
                     </form>
                 </div>
             </div>
@@ -96,13 +106,16 @@
 
 
 
-     <!-- Footer with mock social media links-->
+    <!-- Footer with mock social media links-->
 
-     <footer>
-        <div id="footer-socmedia">           
-            <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit us on Facebook! (opens in new tab)"><i class="fa fa-facebook"></i></a>
-            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit us on Instagram! (opens in new tab)"><i class="fa fa-instagram"></i></a>
-            <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit us on YouTube! (opens in new tab)"><i class="fa fa-youtube"></i></a>          
+    <footer>
+        <div id="footer-socmedia">
+            <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit us on Facebook! (opens in new tab)"><i class="fa fa-facebook"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit us on Instagram! (opens in new tab)"><i class="fa fa-instagram"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener"
+                aria-label="Visit us on YouTube! (opens in new tab)"><i class="fa fa-youtube"></i></a>
         </div>
     </footer>
     <script src="https://kit.fontawesome.com/79cb3fe9f6.js" crossorigin="anonymous"></script>
