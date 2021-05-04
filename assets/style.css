@@ -975,3 +975,53 @@
 
 
     }
+
+
+ /* Media queries <1280px */ 
+
+ @media only screen and (min-device-width : 600px) and (max-device-width : 1279px){
+
+    /* Image and text overlapping - long */
+
+    .courses-long-flex1{
+        border-bottom: 3px double #3c3e4a;
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        margin-top: 15px;
+        box-sizing: border-box;
+        height: auto;
+        align-items: flex-start;
+    }
+  
+    .courses-long-img {
+        width: 30%;
+        position: static;
+        margin: 8vh auto;
+    }
+  
+    .courses-long-text { 
+        margin-top: 8vh;
+        border-radius: 0px;
+        border: none;
+        width: 65%;
+        text-align: center;
+    }
+
+    .courses-long-text h3{
+        margin-top: 1vh;
+        font-size: large;
+     }
+
+     .courses-long-text ul{
+        text-align: start;
+     }
+      
+    
+
+
+
+
+
+ }
