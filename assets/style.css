@@ -711,12 +711,12 @@
             float: none;
             margin: 0 auto;
             padding: 5px 5px;
-            max-width: 85vw;
+            max-width: 95vw;
             border-radius: 18px;
         }
 
         #navbar>ul {
-            justify-content: space-around;
+            justify-content: space-evenly;
             margin-right: 0px;
         }
 
@@ -735,6 +735,13 @@
         li a:hover {
             padding: 5px 5px;
 
+        }
+
+        /*all h2 except index sheet*/
+
+        .sheet-h2 {
+            font-size: x-large;
+            text-decoration: underline;
         }
 
         /*Index sheet*/
@@ -789,7 +796,7 @@
         
 
         #course-intro {
-            border: 1px solid red;
+            border: 1px solid transparent;
             margin: 2vh;
         }
 
@@ -833,6 +840,7 @@
         .leadership-short-text h2 {
         text-transform: uppercase;
         margin-bottom: 5px;
+        font-size: large;
         }
 
 
