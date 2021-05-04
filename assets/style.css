@@ -7,6 +7,7 @@
     body {
         font-family: 'Noto Sans JP', sans-serif;
         background-color: #fdfff5;
+        position: relative;
     }
 
     /*Header*/
@@ -142,14 +143,14 @@
         justify-content: center;
         justify-content: space-around;
         align-items: center;
-        margin-top: 3vh;
+        margin-top: 5vh;
 
     }
 
     .index-flex1 {
 
         width: 30%;
-        height: 20vh;
+        height: fit-content;
         padding: 5px 15px 20px;
         margin: 10px;
         border: 1px solid #262624;
@@ -214,7 +215,7 @@
     /* Courses - intro */
 
     #course-intro {
-        border: 1px solid red;
+        border: 1px solid transparent;
         margin: 2vh;
     }
 
@@ -317,7 +318,7 @@
     .courses-long-img {
         width: 30%;
         position: relative;
-        left: 5%;
+        left: 2%;
         top: 150px; 
     }
       
@@ -336,7 +337,7 @@
     }
 
     .courses-long-text h3{
-       margin-top: 6vh;
+       margin-top: 10vh;
     }
       
     .courses-long-text p{
@@ -546,7 +547,7 @@
         box-sizing: border-box;
         clear: both;
         z-index: 1;
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     /* Footer Social media links*/
@@ -554,7 +555,7 @@
 
 
     #footer-socmedia {
-        margin: auto;
+        margin:  auto;
 
     }
 
@@ -576,6 +577,9 @@
     #footer-socmedia a:hover {
         transform: scale(1.1);
     }
+
+
+
 
     /*Media queries 600 - 950px */
     @media only screen and (min-device-width : 600px) and (max-device-width : 950px){
@@ -626,6 +630,8 @@
 
         #hero-text-out {
             text-transform: uppercase;
+            text-decoration: underline;
+            margin: 2vh 0;
             letter-spacing: 2px;
             display: block;
             text-align: center;
@@ -635,7 +641,9 @@
 
         #index-flexbox {
             flex-direction: column;
-            margin: 0px;   
+            margin: 0px;  
+            height: 65vh;
+            justify-content: space-around; 
         }
 
         #index-flexbox h2 {
@@ -652,6 +660,11 @@
         .index-flex2 {
             width: 50vw;
             margin: 8px 0px;
+        }
+
+        .index-flex1 > p {
+            margin-top: 2vh;
+            font-size: 100%;
         }
 
         #button-link {
@@ -698,11 +711,12 @@
             float: none;
             margin: 0 auto;
             padding: 5px 5px;
-            max-width: 95vw;
+            max-width: 85vw;
+            border-radius: 18px;
         }
 
         #navbar>ul {
-            justify-content: center;
+            justify-content: space-around;
             margin-right: 0px;
         }
 
@@ -737,8 +751,12 @@
 
         #hero-text-out {
             text-transform: uppercase;
+            text-decoration: underline;
+            font-size: x-large;
+            margin-bottom: 1vh;
+            letter-spacing: 1px;
+            display: block;
             text-align: center;
-            letter-spacing: 2px;
         }
 
     /* Index textboxes and book link*/
@@ -754,14 +772,13 @@
         
         .index-flex1 {
             width: 85vw;
-            height: 19vh;
             padding: 5px 8px 25px 8px;
             margin-bottom: 5px;
         }
 
         .index-flex2 {
             width: 50vw;
-            margin: 8px 0px;
+            margin: 8px 0px 10vh 0px;
         }
 
         #button-link {
@@ -837,7 +854,7 @@
             border: none;
             box-shadow: none;
             width: 90%;
-            margin: 0 auto;
+            margin: 2vh auto 7vh auto;
             padding: 0px;
         }
 
