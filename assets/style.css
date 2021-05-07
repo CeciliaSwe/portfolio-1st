@@ -582,7 +582,7 @@
 
 
     /*Media queries 600 - 950px */
-    @media only screen and (min-device-width : 600px) and (max-device-width : 950px){
+    @media only screen and (min-width : 600px) and (max-width : 950px){
 
         /*Paw icon link*/
 
@@ -670,6 +670,24 @@
         #button-link {
             font-size: 40px;
         }
+
+        /*Book sheet*/
+
+        #aside-img {
+            display: none;
+        }
+
+        .booking-box {
+            width: 75%;
+        }
+        
+        .form-book {
+            max-width: 75vw;
+        }
+    
+        
+    
+    
 
 
 
