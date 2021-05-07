@@ -89,7 +89,6 @@
     li a:hover {
 
         background: #92c56d;
-        border: 2px solid #92c56d;
         padding: 15px 13px;
         color: #3c3e4a;
         border-radius: 15px;
@@ -98,7 +97,6 @@
     .active {
 
         background: #92c56d;
-        border: 2px solid #92c56d;
         padding: 15px 13px;
         color: #3c3e4a;
         border-radius: 15px;
@@ -981,7 +979,7 @@
 
  /* Media queries <1280px */ 
 
- @media only screen and (min-device-width : 600px) and (max-device-width : 1279px){
+ @media only screen and (min-width : 600px) and (max-width : 1279px){
 
     /* Image and text overlapping - long */
 
