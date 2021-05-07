@@ -671,7 +671,14 @@
             font-size: 40px;
         }
 
-        /*Book sheet*/
+    /*Inspiration video*/
+
+        iframe {
+            height: 50vh;
+            width: 80vw; 
+        }       
+
+    /*Book sheet*/
 
         #aside-img {
             display: none;
@@ -685,24 +692,9 @@
             max-width: 75vw;
         }
     
-        
     
-    
-
-
-
-
-
-
 
     }
-
-
-
-
-
-
-
 
 
 
@@ -980,26 +972,8 @@
             height: 22vh;
             margin: 1vh auto;
             border: 2px solid transparent
+        
         }
-
-        /*Footer*/
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-        }
-
-        
-
-        
-
-
-
-        
-
-
-
     }
 
 
