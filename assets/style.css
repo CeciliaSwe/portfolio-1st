@@ -769,7 +769,7 @@
         #hero-text-out {
             text-transform: uppercase;
             text-decoration: underline;
-            font-size: x-large;
+            font-size: 1.2em;
             margin-bottom: 1vh;
             letter-spacing: 1px;
             display: block;
@@ -888,8 +888,6 @@
         }
           
         
-    
-    
 
         /*Book sheet*/
 
