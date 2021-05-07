@@ -959,17 +959,17 @@
         .inspo-flex-1 {
             order: 1;
             width: 48%;
-            height: 40vh;
+            height: 30vh;
             margin: 0 auto;
-            border: 2px solid transparent;
+            
         }
 
         .inspo-flex-2 {
             order: 2;
             width: 90%;
-            height: 22vh;
+            height: auto;
             margin: 1vh auto;
-            border: 2px solid transparent
+            
         
         }
     }
