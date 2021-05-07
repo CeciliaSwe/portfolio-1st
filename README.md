@@ -94,6 +94,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 * Book link buttons display as hyperlink but are not clickabe on courses - long section. 
 	* Bug appreas to be caused by position: absolute and a z-index for the div. Fixed by changing positioning from absolute to relative and setting the img div to absolute instead (in order to retain the overlap)
 * Footer sticks to middle of inspiration page for < 600px
+	* Caused by flexitem overflowing the flexbox at last element on page before footer, fixed by setting flexbox height to auto instead of fixed height
 
 ### User stories testing
 All pages (Home, Courses, Inspiration and Book) were wireframed for Desktop, Tablet and smartphone using Balsamiq and are uploaded is a separate assets folder. 
@@ -146,6 +147,7 @@ All code has been custom written for this project, but inspiration and tutorital
 ### Acknowledgements
 
 -   To my Mentor for continuous helpful feedback 
+-   To Tutor Jo for CSS debugging session
 
 
 
