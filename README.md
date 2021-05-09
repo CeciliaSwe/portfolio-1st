@@ -138,6 +138,17 @@ The purpose of this is to fulfill user story:
 -   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone12 mini, iPad mini and iPad.
 -   An Excel testing matrix was created and is uploaded to the assets folder
 
+## Deployment
+### GitHub Pages
+
+The project was deployed to GitHub Pages through the below steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/CeciliaSwe/portfolio-1st)
+2. Click the "Setting" button "Settings" Button.
+3. In the left menu, scroll down to "Pages".
+4. Under "Source", click the dropdown and select "Branch: master", then click "Save".
+5. Once deployed, the now published site [link](https://ceciliaswe.github.io/portfolio-1st/) is found in the "Pages" section.
+
 ## Credits
 ### Images and videos
 * Image on book page: Photo by Richard Brutyo on Unsplash photo
