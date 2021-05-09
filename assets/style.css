@@ -948,7 +948,7 @@
         /*Inspiration sheet*/
 
         #inspo-video-box {
-            height: 30vh;
+            height: auto;
             margin-top: 5vh;
         }
 
@@ -961,7 +961,7 @@
             flex-flow: row wrap;
             width: 75vw;
             border: 1px solid transparent;
-            margin: 5vh auto;
+            margin: 2vh auto;
         }
 
         .inspo-flex-1 {
