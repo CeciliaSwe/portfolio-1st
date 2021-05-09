@@ -201,7 +201,7 @@
 
     /* All sheet h2 except index sheet*/
 
-    .sheet-h2 {
+    .sheet-h1 {
         text-transform: uppercase;
         text-align: center;
         letter-spacing: 2px;
@@ -276,7 +276,7 @@
         max-height: 100%;
     }
 
-    .leadership-short-header > i {
+    .leadership-short-header>i {
         display: none;
     }
 
@@ -306,24 +306,24 @@
 
     /* Image and text overlapping - long */
 
-    #courses-long-flexbox{
+    #courses-long-flexbox {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-      
-    .courses-long-flex1{
+
+    .courses-long-flex1 {
         border-bottom: 3px double #3c3e4a;
         width: 50vw;
     }
-      
+
     .courses-long-img {
         width: 30%;
         position: relative;
         left: 2%;
-        top: 150px; 
+        top: 150px;
     }
-      
+
     .courses-long-text {
         border: 1px solid black;
         border-radius: 15px;
@@ -332,33 +332,33 @@
         margin: 0px auto 120px auto;
         padding: 20px 60px 0px 60px;
     }
-      
-    .courses-long-text h2{
+
+    .courses-long-text h2 {
         text-transform: uppercase;
         text-align: center;
     }
 
-    .courses-long-text h3{
-       margin-top: 10vh;
+    .courses-long-text h3 {
+        margin-top: 10vh;
     }
-      
-    .courses-long-text p{
+
+    .courses-long-text p {
         text-align: center;
         margin: 3vh 0;
     }
-      
-    .course-book-box{
+
+    .course-book-box {
         width: 75%;
         height: 50px;
         border: 1px solid #262624;
         border-radius: 15px;
         box-shadow: 5px 10px 18px #888888;
-        text-align: center;  
+        text-align: center;
         margin: 30px auto;
     }
-      
+
     .course-book-link {
-       font-size: 30px;
+        font-size: 30px;
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 2px;
@@ -370,14 +370,14 @@
         text-decoration: none;
         color: #262624;
         margin: 0 auto;
-      }
+    }
 
 
 
     /*Inspiration video*/
 
     #inspo-video-box {
-        height: 65vh;
+        height: 70vh;
         border-bottom: 3px double black;
         margin-top: 10vh;
     }
@@ -386,7 +386,7 @@
         border: 3px double black;
         height: 60vh;
         width: 60vw;
-        margin: 0 auto;
+        margin: 2vh auto;
         display: block;
     }
 
@@ -396,7 +396,7 @@
         display: flex;
         width: 75vw;
         border: 1px solid transparent;
-        margin: 5vh auto;
+        margin: 2vh auto;
     }
 
     .inspo-flex-1 {
@@ -430,6 +430,12 @@
         object-fit: cover;
         margin-bottom: 8px;
 
+    }
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 30px;
     }
 
 
@@ -557,7 +563,7 @@
 
 
     #footer-socmedia {
-        margin:  auto;
+        margin: auto;
 
     }
 
@@ -584,13 +590,13 @@
 
 
     /*Media queries 600 - 950px */
-    @media only screen and (min-width : 600px) and (max-width : 950px){
+    @media only screen and (min-width : 600px) and (max-width : 950px) {
 
         /*Paw icon link*/
 
         #paw {
             font-size: 100%;
-       
+
         }
 
         /*Nav bar */
@@ -603,7 +609,7 @@
         #navbar>ul {
             margin-right: 0px;
         }
-        
+
         #navbar li {
             padding: 2px;
         }
@@ -639,19 +645,19 @@
             text-align: center;
         }
 
-    /* Index textboxes and book link*/
+        /* Index textboxes and book link*/
 
         #index-flexbox {
             flex-direction: column;
-            margin: 0px;  
+            margin: 0px;
             height: 65vh;
-            justify-content: space-around; 
+            justify-content: space-around;
         }
 
         #index-flexbox h2 {
             font-size: large;
         }
-    
+
         .index-flex1 {
             width: 85vw;
             height: 19vh;
@@ -664,7 +670,7 @@
             margin: 8px 0px;
         }
 
-        .index-flex1 > p {
+        .index-flex1>p {
             margin-top: 2vh;
             font-size: 100%;
         }
@@ -673,14 +679,14 @@
             font-size: 40px;
         }
 
-    /*Inspiration video*/
+        /*Inspiration video*/
 
         iframe {
             height: 50vh;
-            width: 80vw; 
-        }       
+            width: 80vw;
+        }
 
-    /*Book sheet*/
+        /*Book sheet*/
 
         #aside-img {
             display: none;
@@ -689,19 +695,19 @@
         .booking-box {
             width: 75%;
         }
-        
+
         .form-book {
             max-width: 75vw;
         }
-    
-    
+
+
 
     }
 
 
 
 
-    /* Media queries <600px */ 
+    /* Media queries <600px */
 
     @media only screen and (max-width: 600px) {
 
@@ -778,17 +784,17 @@
             text-align: center;
         }
 
-    /* Index textboxes and book link*/
+        /* Index textboxes and book link*/
 
         #index-flexbox {
             flex-direction: column;
-            margin: 0px;   
+            margin: 0px;
         }
 
         #index-flexbox h2 {
             font-size: large;
         }
-        
+
         .index-flex1 {
             width: 85vw;
             padding: 5px 8px 25px 8px;
@@ -805,7 +811,7 @@
         }
 
         /*Courses sheet*/
-        
+
 
         #course-intro {
             border: 1px solid transparent;
@@ -837,39 +843,39 @@
         }
 
 
-        .leadership-short-header > i {
-        display: inline;
+        .leadership-short-header>i {
+            display: inline;
         }
 
         .leadership-short-text {
-        width: 70%;
-        padding: 5px;
-        border: 1px solid transparent;
-        line-height: normal;
-        font-size: small;
+            width: 70%;
+            padding: 5px;
+            border: 1px solid transparent;
+            line-height: normal;
+            font-size: small;
         }
 
         .leadership-short-text h2 {
-        text-transform: uppercase;
-        margin-bottom: 5px;
-        font-size: large;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            font-size: large;
         }
 
 
-    /* Courses long section */
-       
-      
-        .courses-long-flex1{
+        /* Courses long section */
+
+
+        .courses-long-flex1 {
             border-bottom: 3px double #3c3e4a;
             width: 85vw;
         }
-      
+
         .courses-long-img {
             width: 50%;
             position: static;
             margin: 3vh auto;
         }
-      
+
         .courses-long-text {
             border: none;
             box-shadow: none;
@@ -878,65 +884,65 @@
             padding: 0px;
         }
 
-        .courses-long-text h2{
+        .courses-long-text h2 {
             text-transform: uppercase;
             text-align: center;
             text-decoration: underline;
         }
-    
-        .courses-long-text h3{
-           margin-top: 1vh;
-           font-size: large;
+
+        .courses-long-text h3 {
+            margin-top: 1vh;
+            font-size: large;
         }
-          
-        
+
+
 
         /*Book sheet*/
 
         #aside-img {
             display: none;
         }
-    
+
         .booking-box-out {
             height: 1100px;
         }
-    
+
         .booking-box {
-            
+
             width: 90vw;
             margin: 40px 0px;
-            
+
         }
-    
+
         /* Book form fieldset styling */
-        
-        
+
+
 
         .form-book {
             max-width: 85vw;
         }
-    
+
         .form-book label {
             margin-bottom: 10px;
         }
-    
-    
+
+
         fieldset {
             margin: 30px 20px;
             width: 75vw;
-            
+
         }
-    
+
         .form-book input,
         .form-book select,
         .form-book textarea {
             width: 90%;
         }
-    
+
         #book-button {
-            margin: 25px auto; 
+            margin: 25px auto;
         }
-    
+
 
 
         /*Inspiration sheet*/
@@ -963,7 +969,7 @@
             width: 48%;
             height: 30vh;
             margin: 0 auto;
-            
+
         }
 
         .inspo-flex-2 {
@@ -971,57 +977,57 @@
             width: 90%;
             height: auto;
             margin: 1vh auto;
-            
-        
+
+
         }
     }
 
 
- /* Media queries <1280px */ 
+    /* Media queries <1280px */
 
- @media only screen and (min-width : 600px) and (max-width : 1279px){
+    @media only screen and (min-width : 600px) and (max-width : 1279px) {
 
-    /* Image and text overlapping - long */
+        /* Image and text overlapping - long */
 
-    .courses-long-flex1{
-        border-bottom: 3px double #3c3e4a;
-        width: 70vw;
-        display: flex;
-        justify-content: space-between;
-        padding-bottom: 25px;
-        margin-top: 15px;
-        box-sizing: border-box;
-        height: auto;
-        align-items: flex-start;
+        .courses-long-flex1 {
+            border-bottom: 3px double #3c3e4a;
+            width: 70vw;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 25px;
+            margin-top: 15px;
+            box-sizing: border-box;
+            height: auto;
+            align-items: flex-start;
+        }
+
+        .courses-long-img {
+            width: 30%;
+            position: static;
+            margin: 8vh auto;
+        }
+
+        .courses-long-text {
+            margin-top: 8vh;
+            border-radius: 0px;
+            border: none;
+            width: 65%;
+            text-align: center;
+        }
+
+        .courses-long-text h3 {
+            margin-top: 1vh;
+            font-size: large;
+        }
+
+        .courses-long-text ul {
+            text-align: start;
+        }
+
+
+
+
+
+
+
     }
-  
-    .courses-long-img {
-        width: 30%;
-        position: static;
-        margin: 8vh auto;
-    }
-  
-    .courses-long-text { 
-        margin-top: 8vh;
-        border-radius: 0px;
-        border: none;
-        width: 65%;
-        text-align: center;
-    }
-
-    .courses-long-text h3{
-        margin-top: 1vh;
-        font-size: large;
-     }
-
-     .courses-long-text ul{
-        text-align: start;
-     }
-      
-    
-
-
-
-
-
- }
