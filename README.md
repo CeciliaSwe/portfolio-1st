@@ -3,8 +3,15 @@
 
 Website for dog leadership courses providing information, inspiration and a booking page. 
 
-This Website was created for the purpose of completing the Portfolio 1 project for the Code Institute's Full Stack Developer course. 
+This Website was created for the purpose of completing the Portfolio 1 project for the Code Institute's Full Stack Developer course and is entirely fictional.
 The project covers HTML and CSS with a user centric approach in mind.  A full list of technologies used can be found in the technologies section of this document.
+
+The live website can be found [here](https://ceciliaswe.github-io/portfolio-1st/index.html)
+
+## Playful Paws Responsive Website
+
+![Website Mock Up](assets/images/images-readme/Screenshot.png)
+
 
 *** 
 ## User Experience (UX)
@@ -28,6 +35,7 @@ The Index page contains a large hero image. The color scheme consists of 3 eartl
 #### Imagery
 Images on index page and courses page are meant to emphasize the information on the page and be inspiring at the same time.	
 #### Typography
+Noto Sans JP from Google Fonts is used, with Sans Serif as fallback font.
 
 
 ### Structure 
@@ -45,11 +53,11 @@ Wireframes created usig Balsamiq are uploaded to the assets folder - [View](http
 ## Features
 * Internal links (within sheet and between sheets) - both in nav bar and on the sheets
 * External links (social media)
-* Booking form (mock)
+* Booking form 
 * Images and embedded video
 
 ### Future features
-* A booking form sending the data to the business owner - current form uses form method get and clear the form upon submit.
+* A booking form sending the data to the business owner - current form uses form method get and clears the form upon submit.
 * Integrated feedback for course availability (available/few left/full)
 
 ## Technologies
@@ -76,13 +84,16 @@ Wireframes created usig Balsamiq are uploaded to the assets folder - [View](http
 	* The color picker was used to find 3 main colors from the hero image for use throughout the portfolio.
 * [Tiny JPG ](https://tinyjpg.com/)
 	* Tiny JPG was used to reduce image file size for the website.
+* [Am I Responsive?](http://ami.responsivedesign.is/)
+	* Used to generate the screenshots for responsive design.
+	
 
 ## Testing
 
 ### Validation
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results]()
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
 ### Bugs
 * Opaque part of the hero textbox floats on top on the header while the image itself clears behind
