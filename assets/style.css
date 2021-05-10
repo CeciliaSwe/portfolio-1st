@@ -237,7 +237,7 @@
         flex-direction: column;
         justify-content: center;
         width: 50%;
-        height: 75vh;
+        min-height: 75vh;
         padding-top: 10px;
         border: 2px solid transparent;
         margin: 0 auto;
@@ -432,7 +432,7 @@
 
     }
 
-    h3 {
+    .inspo-h3 {
         text-transform: uppercase;
         text-align: center;
         margin-top: 30px;
@@ -650,7 +650,7 @@
         #index-flexbox {
             flex-direction: column;
             margin: 0px;
-            height: 65vh;
+            height: auto;
             justify-content: space-around;
         }
 
@@ -660,7 +660,7 @@
 
         .index-flex1 {
             width: 85vw;
-            height: 19vh;
+            height: fit-content;
             padding: 5px 30px 25px 30px;
             margin-bottom: 5px;
         }
