@@ -30,20 +30,22 @@ The live website can be found [here](https://ceciliaswe.github.io/portfolio-1st/
 * As a Frequent user, I want to check if there are added content to the Inspiration page
 
 ### Design
+
 #### Color Scheme
 The Index page contains a large hero image. The color scheme consists of 3 eartly colors; beige (#fdfff5) grey (#bdc3C6) and green (#92c58d) picked out from the hero image.
+
 #### Imagery
 Images on index page and courses page are meant to emphasize the information on the page and be inspiring at the same time.	
+
 #### Typography
 Noto Sans JP from Google Fonts is used, with Sans Serif as fallback font.
+
 #### Differences to Design
 * The Book button on the book page does not generate a response as indicated in the wireframes (just clears the form) due to limitations of HTML and CSS.
 * Images beside the book form on book page was replaced by font awesome icons in the form legend as this displayed more visually pleasing, while maintaining the visual cue for expected form contents.
 * Header was split in 2 rows for mobile devices to keep visual integrity and readibility of header and navbar.
 
-
 ### Structure 
-
 * The Home page follows a Z-shape design with the hero image on top and important sections displayed inline, finishing with a button linking to the Book sheet.
 * The Courses page displays overview information availabe without scrolling. Page links as well as scrolling enables expanded information further down on the page.
 * The Inspiration page displays images at a glance and optional video playing.
@@ -53,7 +55,8 @@ No submenues are used and the navbar indicates to the user where they are at all
 
 ### Wireframes
 Wireframes created usig Balsamiq are uploaded to the assets folder - [View](https://github.com/CeciliaSwe/portfolio-1st/tree/master/wireframes_balsamiq)
-- Return to [top](#purpose)
+
+Return to [top](#purpose)
 
 ## Features
 * Internal links (within sheet and between sheets) - both in nav bar and on the sheets
