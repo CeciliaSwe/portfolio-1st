@@ -138,9 +138,11 @@ The purpose of this is to fulfill user story:
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Mozilla Firefox and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone12 mini, iPad mini and iPad.
--   An Excel testing matrix was created and is uploaded to the assets folder
+The site was testes to to ensure consistency across browsers and screen sizen. Full testing matrix can be found [here](https://github.com/CeciliaSwe/portfolio-1st/blob/master/miscellaneous/testing_matrix_portfolio-1st.xlsx)
+
+Noted Issues
+* Links in intro section correspond to the headers for each course in the long section and cuts off the image at some screen sizes depending on image placement.	
+* Selection arrows for Book page input filed for age are not clickable. Input field itself is functioning.					
 
 ## Deployment
 ### GitHub Pages
@@ -155,25 +157,25 @@ The project was deployed to GitHub Pages through the below steps:
 
 ## Credits
 ### Images and videos
-* Image on book page: Photo by Richard Brutyo on Unsplash photo
+* Image on book page: [Photo by Richard Brutyo on Unsplash photo](https://unsplash.com/@richardbrutyo)
 * Image on index page: own photo
 * Imgaes on courses page: own photos
-* Images on inspiration page: https://www.hdwallpaper.nu/
+* Images on inspiration page: [HD Wallpaper](https://www.hdwallpaper.nu/)
 * Video on Inspiration page: embedded from YouTube
 
 ### Code
 All code has been custom written for this project, but inspiration and tutoritals are credited as per below:
 
-* Form filedsets (ledgend style and inline display of label and input field) was inspired by https://www.sanwebe.com/2014/08/css-html-forms-designs
+* Form fieldsets (ledgend style and inline display of label and input field) was inspired by [Sanwebe](https://www.sanwebe.com/2014/08/css-html-forms-designs)
 * Use of hero image and overlapping textfield was inspired by the  Code Institute Love Running Walkthrough
 * Use of text transform for footer icons was inspired by the Code Institute Love Running Walkthrough
-* The use of Flexbox was taught by https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-* The technique to omitt elements in media queries was taught by https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml
+* The use of Flexbox was taught by [CSS tricks flexbox guide](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* The technique to omitt elements in media queries was taught by [The Site Wizard](https://www.thesitewizard.com/css/hide-images-on-mobile-website.shtml)
 
 ### Acknowledgements
 
--   To my Mentor for continuous helpful feedback 
--   To Tutor Jo for CSS debugging session
+-   To my Mentor [Chris Quinn](https://github.com/10xOXR) for patience during technical difficulties, for pushing me to make smart choices and for inspiration for the testing matrix.
+-   To CI Tutor Jo for CSS debugging.
 
 
 
