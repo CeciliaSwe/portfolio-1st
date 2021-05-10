@@ -53,6 +53,7 @@ No submenues are used and the navbar indicates to the user where they are at all
 
 ### Wireframes
 Wireframes created usig Balsamiq are uploaded to the assets folder - [View](https://github.com/CeciliaSwe/portfolio-1st/tree/master/wireframes_balsamiq)
+- Return to [top](#purpose)
 
 ## Features
 * Internal links (within sheet and between sheets) - both in nav bar and on the sheets
