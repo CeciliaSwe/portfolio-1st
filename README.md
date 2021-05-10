@@ -4,9 +4,11 @@
 Website for dog leadership courses providing information, inspiration and a booking page. 
 
 This Website was created for the purpose of completing the Portfolio 1 project for the Code Institute's Full Stack Developer course and is entirely fictional.
-The project covers HTML and CSS with a user centric approach in mind.  A full list of technologies used can be found in the technologies section of this document.
+The project covers HTML and CSS with a user centric approach in mind.  A full list of technologies used can be found in the technologies section of this document. Note that GitHub as of March 2021 automatically creates a Table of Contents for the README file.
 
 The live website can be found [here](https://ceciliaswe.github.io/portfolio-1st/index.html)
+
+
 
 ## Playful Paws Responsive Website
 
