@@ -1,220 +1,773 @@
-    * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
-    body {
-        font-family: 'Noto Sans JP', sans-serif;
-        background-color: #fdfff5;
-        position: relative;
-    }
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #fdfff5;
+    position: relative;
+}
 
-    /*Header*/
+/*Header*/
 
-    header {
-        background-color: #3c3e4a;
-        height: 100px;
-        position: relative;
-        width: 100%;
-        top: 0;
-        left: 0;
-    }
+header {
+    background-color: #3c3e4a;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/*Paw icon link*/
+
+#paw {
+    font-size: 200%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 10px;
+    line-height: 75px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 2px;
+    color: #fdfff5;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#paw:hover {
+    background-color: #92c56d;
+    color: #3c3e4a;
+}
+
+#intext-link {
+    color: #3c3e4a;
+}
+
+/*Nav bar */
+
+#navbar {
+    float: right;
+    margin-top: 15px;
+    margin-right: 2%;
+    left: 70%;
+    border: 2px solid #fdfff5;
+    border-radius: 30px;
+    padding: 15px 13px;
+}
+
+#navbar>ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+#navbar li {
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+li a {
+    color: #fdfff5;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 20px 15px;
+}
+
+li a:hover {
+    background: #92c56d;
+    padding: 15px 13px;
+    color: #3c3e4a;
+    border-radius: 15px;
+}
+
+.active {
+    background: #92c56d;
+    padding: 15px 13px;
+    color: #3c3e4a;
+    border-radius: 15px;
+}
+
+/* Hero image and text*/
+
+#hero-image {
+    height: 52vh;
+    background: url("./images/lilo-bella2.jpeg") no-repeat center center;
+    clear: both;
+    background-size: contain;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+#hero-text-box {
+    color: #EBECF1;
+    font-size: 100%;
+    font-family: 'Noto Sans JP';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 150px;
+    padding-top: 25px;
+    padding-left: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 22%;
+    right: 3%;
+    position: absolute;
+}
+
+#hero-text-out {
+    display: none;
+}
+
+/* Index textboxes and book link*/
+
+#index-flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.index-flex1 {
+    width: 30%;
+    height: fit-content;
+    padding: 5px 15px 20px;
+    margin: 10px;
+    border: 1px solid #262624;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+}
+
+.index-flex1>h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+}
+
+.index-flex1>p {
+    font-size: 90%;
+    padding-bottom: 3px;
+}
+
+.index-flex2 {
+    width: 25%;
+    max-height: 100px;
+    border: 1px solid #262624;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+#button-link {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #92c56d;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #262624;
+    text-align: center;
+}
+
+/* All sheet h2 except index sheet*/
+
+.sheet-h1 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 270%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #262624;
+}
+
+/* Courses - intro */
+
+#course-intro {
+    border: 1px solid transparent;
+    margin: 2vh;
+}
+
+#course-intro>h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 270%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #262624;
+}
+
+#courses-intro-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    min-height: 75vh;
+    padding-top: 10px;
+    border: 2px solid transparent;
+    margin: 0 auto;
+}
+
+.courses-intro-flex1 {
+    border: 3px solid transparent;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-top: 15px;
+    border-bottom: 5px double #3c3e4a;
+    box-sizing: border-box;
+    height: 32%;
+    align-items: center;
+}
+
+#intro-flex-reverse {
+    flex-direction: row-reverse;
+}
+
+#intro-flex-last {
+    border: none;
+}
+
+.courses-intro-img {
+    width: 15%;
+    height: 150px;
+    border: 1px solid transparent;
+    object-fit: cover;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.leadership-short-header>i {
+    display: none;
+}
+
+.leadership-short-text {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid transparent;
+    line-height: normal;
+    font-size: small;
+}
+
+.leadership-short-header {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+/* Internal links in courses */
+
+.internal-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#course-divider {
+    border: 5px double #3c3e4a;
+}
+
+/* Image and text overlapping - long */
+
+#courses-long-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-long-flex1 {
+    border-bottom: 3px double #3c3e4a;
+    width: 50vw;
+}
+
+.courses-long-img {
+    width: 30%;
+    position: relative;
+    left: 2%;
+    top: 150px;
+}
+
+.courses-long-text {
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #888888;
+    width: 50%;
+    margin: 0px auto 120px auto;
+    padding: 20px 60px 0px 60px;
+}
+
+.courses-long-text h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.courses-long-text h3 {
+    margin-top: 10vh;
+}
+
+.courses-long-text p {
+    text-align: center;
+    margin: 3vh 0;
+}
+
+.course-book-box {
+    width: 75%;
+    height: 50px;
+    border: 1px solid #262624;
+    border-radius: 15px;
+    box-shadow: 5px 10px 18px #888888;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.course-book-link {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #92c56d;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #262624;
+    margin: 0 auto;
+}
+
+/*Inspiration video*/
+
+#inspo-video-box {
+    height: 70vh;
+    border-bottom: 3px double black;
+    margin-top: 10vh;
+}
+
+iframe {
+    border: 3px double black;
+    height: 60vh;
+    width: 60vw;
+    margin: 2vh auto;
+    display: block;
+}
+
+/*Inspiration flexbox and images*/
+
+#inspo-flexbox {
+    display: flex;
+    width: 75vw;
+    border: 1px solid transparent;
+    margin: 2vh auto;
+}
+
+.inspo-flex-1 {
+    width: 30%;
+    height: 70vh;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+    margin: 0 8px;
+}
+
+.inspo-flex-2 {
+    width: 40%;
+    height: 70vh;
+    box-sizing: border-box;
+    border: 3px solid transparent;
+
+}
+
+.inspo-img-vertical {
+    object-fit: cover;
+    height: 70vh;
+}
+
+.inspo-img-horizontal-1 {
+    height: 34vh;
+    object-fit: cover;
+}
+
+.inspo-img-horizontal-2 {
+    height: 34vh;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.inspo-h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Book form outer blocks*/
+
+#book-section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 270%;
+    margin-top: 10px;
+    color: #262624;
+}
+
+.booking-box-out {
+    border: 1px solid transparent;
+    width: 100%;
+    height: 1500px;
+    margin-top: 20px;
+}
+
+#aside-img {
+    border: 1px solid transparent;
+    width: 30%;
+    height: 1000px;
+    float: right;
+    overflow: hidden;
+    margin-right: 10vw;
+    margin-top: 5vw;
+}
+
+.booking-box {
+    background-color: inherit;
+    border: 1px solid transparent;
+    width: 40%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 10vw;
+}
+
+/* Book form fieldset styling */
+
+.form-book {
+    max-width: 33vw;
+}
+
+.form-book label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form-book label>span {
+    float: left;
+    width: 100px;
+    color: #262624;
+    font-size: 17px;
+}
+
+fieldset {
+    border-radius: 15px;
+    margin: 40px 10px 70px 40px;
+    border: 1px solid #262624;
+    padding: 20px;
+    background: #e2e4d9;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+legend {
+    color: #262624;
+    border-top: 1px solid #262624;
+    border-left: 1px solid #262624;
+    border-right: 1px solid #262624;
+    border-radius: 5px 5px 0px 0px;
+    background: #e2e4d9;
+    padding: 2px 15px 5px 15px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.form-book input,
+.form-book select,
+.form-book textarea {
+    border-radius: 3px;
+    border: 1px solid #91918a;
+    outline: none;
+    color: #262624;
+    padding: 5px 8px 5px 8px;
+    background: #edede4;
+    width: 60%;
+}
+
+#book-button {
+    background: #92c56d;
+    border: 1px solid #262624;
+    padding: 15px 20px 15px 20px;
+    color: #262624;
+    border-radius: 3px;
+    border-radius: 3px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+/* Footer*/
+
+footer {
+    background-color: #3c3e4a;
+    height: 45px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    box-sizing: border-box;
+    clear: both;
+    z-index: 1;
+    margin-top: 100px;
+}
+
+/* Footer Social media links*/
+
+#footer-socmedia {
+    margin: auto;
+}
+
+#footer-socmedia a {
+    display: inline-block;
+    width: 75px;
+    height: 20px;
+    background-color: #3c3e4a;
+    border-radius: 2px;
+    font-size: 25px;
+    padding: 2px;
+    color: #e2e4d9;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 25px;
+    margin-top: 3px;
+}
+
+#footer-socmedia a:hover {
+    transform: scale(1.1);
+}
+
+/*Media queries 600 - 950px */
+@media only screen and (min-width : 600px) and (max-width : 950px) {
 
     /*Paw icon link*/
 
     #paw {
-        font-size: 200%;
-        float: left;
-        margin-left: 2%;
-        margin-top: 10px;
-        line-height: 75px;
-        border: 1px solid transparent;
-        border-radius: 20px;
-        padding: 2px;
-        color: #fdfff5;
-        text-decoration: none;
-        text-transform: uppercase;
+        font-size: 100%;
     }
-
-    #paw:hover {
-
-        background-color: #92c56d;
-        color: #3c3e4a;
-    }
-
-    #intext-link {
-        color: #3c3e4a;
-    }
-
 
     /*Nav bar */
 
     #navbar {
-
-        float: right;
-        margin-top: 15px;
-        margin-right: 2%;
-        left: 70%;
-
-        border: 2px solid #fdfff5;
-        border-radius: 30px;
-        padding: 15px 13px;
+        padding: 5px 5px;
+        margin-top: 27px;
     }
 
     #navbar>ul {
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        list-style-type: none;
-        margin-right: 35px;
+        margin-right: 0px;
     }
 
     #navbar li {
-
-        border: 2px solid transparent;
-        border-radius: 5px;
-        padding: 5px;
+        padding: 2px;
     }
 
     li a {
-
-        color: #fdfff5;
-        text-decoration: none;
-        text-transform: uppercase;
-        padding: 20px 15px;
-    }
-
-    li a:hover {
-
-        background: #92c56d;
-        padding: 15px 13px;
-        color: #3c3e4a;
-        border-radius: 15px;
+        padding: 10px 1px;
     }
 
     .active {
-
-        background: #92c56d;
-        padding: 15px 13px;
-        color: #3c3e4a;
-        border-radius: 15px;
+        padding: 5px 5px;
     }
 
-    /* Hero image and text*/
+    li a:hover {
+        padding: 5px 5px;
+    }
+
+    /*Index page*/
 
     #hero-image {
-
-        height: 52vh;
-        background: url("./images/lilo-bella2.jpeg") no-repeat center center;
-        clear: both;
-        background-size: contain;
-        margin-bottom: 0px;
-        position: relative;
+        height: 32vh;
     }
 
     #hero-text-box {
-
-        color: #EBECF1;
-        font-size: 100%;
-        font-family: 'Noto Sans JP';
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 4px;
-        width: 300px;
-        height: 150px;
-        padding-top: 25px;
-        padding-left: 10px;
-        background-color: rgba(0, 0, 0, 0.4);
-        top: 22%;
-        right: 3%;
-        position: absolute;
-
+        display: none;
     }
 
     #hero-text-out {
-        display: none;
+        text-transform: uppercase;
+        text-decoration: underline;
+        margin: 2vh 0;
+        letter-spacing: 2px;
+        display: block;
+        text-align: center;
     }
 
     /* Index textboxes and book link*/
 
     #index-flexbox {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        margin: 0px;
+        height: auto;
         justify-content: space-around;
-        align-items: center;
-        margin-top: 5vh;
+    }
 
+    #index-flexbox h2 {
+        font-size: large;
     }
 
     .index-flex1 {
-
-        width: 30%;
+        width: 85vw;
         height: fit-content;
-        padding: 5px 15px 20px;
-        margin: 10px;
-        border: 1px solid #262624;
-        border-radius: 15px;
-        box-shadow: 5px 10px 18px #888888;
-        text-align: center;
-
-    }
-
-    .index-flex1>h2 {
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        margin-bottom: 6px;
-    }
-
-    .index-flex1>p {
-        font-size: 90%;
-        padding-bottom: 3px;
-
+        padding: 5px 30px 25px 30px;
+        margin-bottom: 5px;
     }
 
     .index-flex2 {
+        width: 50vw;
+        margin: 8px 0px;
+    }
 
-        width: 25%;
-        max-height: 100px;
-        border: 1px solid #262624;
-        border-radius: 15px;
-        box-shadow: 5px 10px 18px #888888;
+    .index-flex1>p {
+        margin-top: 2vh;
+        font-size: 100%;
     }
 
     #button-link {
-        font-size: 50px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        background-color: #92c56d;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
+        font-size: 40px;
+    }
+
+    /*Inspiration video*/
+
+    iframe {
+        height: 50vh;
+        width: 80vw;
+    }
+
+    /*Book sheet*/
+
+    #aside-img {
+        display: none;
+    }
+
+    .booking-box {
+        width: 75%;
+    }
+
+    .form-book {
+        max-width: 75vw;
+    }
+}
+
+/* Media queries <600px */
+@media only screen and (max-width: 600px) {
+
+    /*Header and header elements*/
+
+    header {
+        height: 150px;
+    }
+
+    #paw {
+        font-size: 150%;
+        float: none;
         text-align: center;
-        border-radius: 15px;
-        text-decoration: none;
-        color: #262624;
+        line-height: 15px;
+    }
+
+    #navbar {
+        float: none;
+        margin: 0 auto;
+        padding: 5px 5px;
+        max-width: 95vw;
+        border-radius: 18px;
+    }
+
+    #navbar>ul {
+        justify-content: space-evenly;
+        margin-right: 0px;
+    }
+
+    #navbar li {
+        padding: 2px;
+    }
+
+    li a {
+        padding: 10px 1px;
+    }
+
+    .active {
+        padding: 5px 5px;
+    }
+
+    li a:hover {
+        padding: 5px 5px;
+    }
+
+    /*all h2 except index sheet*/
+
+    .sheet-h2 {
+        font-size: x-large;
+        text-decoration: underline;
+    }
+
+    /*Index sheet Hero image and text*/
+
+    #hero-image {
+        height: 20vh;
+    }
+
+    #hero-text-box {
+        display: none;
+    }
+
+    #hero-text-out {
+        text-transform: uppercase;
+        text-decoration: underline;
+        font-size: 1.2em;
+        margin-bottom: 1vh;
+        letter-spacing: 1px;
+        display: block;
         text-align: center;
     }
 
-    /* All sheet h2 except index sheet*/
+    /* Index textboxes and book link*/
 
-    .sheet-h1 {
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 2px;
-        font-size: 270%;
-        margin-top: 10px;
+    #index-flexbox {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    #index-flexbox h2 {
+        font-size: large;
+    }
+
+    .index-flex1 {
+        width: 85vw;
+        padding: 5px 8px 25px 8px;
         margin-bottom: 5px;
-        color: #262624;
     }
 
+    .index-flex2 {
+        width: 50vw;
+        margin: 8px 0px 10vh 0px;
+    }
 
+    #button-link {
+        font-size: 40px;
+    }
 
-
-    /* Courses - intro */
+    /*Courses sheet*/
 
     #course-intro {
         border: 1px solid transparent;
@@ -232,52 +785,20 @@
     }
 
     #courses-intro-flexbox {
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 50%;
-        min-height: 75vh;
-        padding-top: 10px;
-        border: 2px solid transparent;
-        margin: 0 auto;
-    }
-
-    .courses-intro-flex1 {
-        border: 3px solid transparent;
-        display: flex;
-        justify-content: space-around;
-        padding-top: 15px;
-        padding-bottom: 25px;
-        margin-top: 15px;
-        border-bottom: 5px double #3c3e4a;
-        box-sizing: border-box;
-        height: 32%;
-        align-items: center;
+        width: 80vw;
+        height: 85vh;
     }
 
     #intro-flex-reverse {
-        flex-direction: row-reverse;
-    }
-
-    #intro-flex-last {
-        border: none;
+        flex-direction: row;
     }
 
     .courses-intro-img {
-        width: 15%;
-        height: 150px;
-        border: 1px solid transparent;
-        object-fit: cover;
-    }
-
-    img {
-        max-width: 100%;
-        max-height: 100%;
+        display: none;
     }
 
     .leadership-short-header>i {
-        display: none;
+        display: inline;
     }
 
     .leadership-short-text {
@@ -288,746 +809,156 @@
         font-size: small;
     }
 
-    .leadership-short-header {
+    .leadership-short-text h2 {
         text-transform: uppercase;
         margin-bottom: 5px;
+        font-size: large;
     }
 
-    /* Internal links in courses */
-
-    .internal-link {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #course-divider {
-        border: 5px double #3c3e4a;
-    }
-
-    /* Image and text overlapping - long */
-
-    #courses-long-flexbox {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    /* Courses long section */
 
     .courses-long-flex1 {
         border-bottom: 3px double #3c3e4a;
-        width: 50vw;
+        width: 85vw;
     }
 
     .courses-long-img {
-        width: 30%;
-        position: relative;
-        left: 2%;
-        top: 150px;
+        width: 50%;
+        position: static;
+        margin: 3vh auto;
     }
 
     .courses-long-text {
-        border: 1px solid black;
-        border-radius: 15px;
-        box-shadow: 5px 10px 18px #888888;
-        width: 50%;
-        margin: 0px auto 120px auto;
-        padding: 20px 60px 0px 60px;
+        border: none;
+        box-shadow: none;
+        width: 90%;
+        margin: 2vh auto 7vh auto;
+        padding: 0px;
     }
 
     .courses-long-text h2 {
         text-transform: uppercase;
         text-align: center;
+        text-decoration: underline;
     }
 
     .courses-long-text h3 {
-        margin-top: 10vh;
+        margin-top: 1vh;
+        font-size: large;
     }
 
-    .courses-long-text p {
-        text-align: center;
-        margin: 3vh 0;
+    /*Book sheet*/
+
+    #aside-img {
+        display: none;
     }
 
-    .course-book-box {
-        width: 75%;
-        height: 50px;
-        border: 1px solid #262624;
-        border-radius: 15px;
-        box-shadow: 5px 10px 18px #888888;
-        text-align: center;
-        margin: 30px auto;
+    .booking-box-out {
+        height: 1100px;
     }
 
-    .course-book-link {
-        font-size: 30px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        background-color: #92c56d;
-        display: inline-block;
-        width: 100%;
-        height: 100%;
-        border-radius: 15px;
-        text-decoration: none;
-        color: #262624;
-        margin: 0 auto;
+    .booking-box {
+        width: 90vw;
+        margin: 40px 0px;
     }
 
+    /* Book form fieldset styling */
 
+    .form-book {
+        max-width: 85vw;
+    }
 
-    /*Inspiration video*/
+    .form-book label {
+        margin-bottom: 10px;
+    }
+
+    fieldset {
+        margin: 30px 20px;
+        width: 75vw;
+    }
+
+    .form-book input,
+    .form-book select,
+    .form-book textarea {
+        width: 90%;
+    }
+
+    #book-button {
+        margin: 25px auto;
+    }
+
+    /*Inspiration sheet*/
 
     #inspo-video-box {
-        height: 70vh;
-        border-bottom: 3px double black;
-        margin-top: 10vh;
+        height: auto;
+        margin-top: 5vh;
     }
 
     iframe {
-        border: 3px double black;
-        height: 60vh;
-        width: 60vw;
-        margin: 2vh auto;
-        display: block;
+        height: 25vh;
+        width: 80vw;
     }
 
-    /*Inspiration flexbox and images*/
-
     #inspo-flexbox {
-        display: flex;
+        flex-flow: row wrap;
         width: 75vw;
         border: 1px solid transparent;
         margin: 2vh auto;
     }
 
     .inspo-flex-1 {
-        width: 30%;
-        height: 70vh;
-        box-sizing: border-box;
-        border: 3px solid transparent;
-        margin: 0 8px;
+        order: 1;
+        width: 48%;
+        height: 30vh;
+        margin: 0 auto;
     }
 
     .inspo-flex-2 {
-        width: 40%;
-        height: 70vh;
-        box-sizing: border-box;
-        border: 3px solid transparent;
-
-    }
-
-    .inspo-img-vertical {
-        object-fit: cover;
-        height: 70vh;
-    }
-
-    .inspo-img-horizontal-1 {
-        height: 34vh;
-        object-fit: cover;
-    }
-
-    .inspo-img-horizontal-2 {
-        height: 34vh;
-        object-fit: cover;
-        margin-bottom: 8px;
-
-    }
-
-    .inspo-h3 {
-        text-transform: uppercase;
-        text-align: center;
-        margin-top: 30px;
-    }
-
-
-    /* Book form outer blocks*/
-
-    #book-section h2 {
-        text-transform: uppercase;
-        text-align: center;
-        letter-spacing: 2px;
-        font-size: 270%;
-        margin-top: 10px;
-        color: #262624;
-
-    }
-
-    .booking-box-out {
-        border: 1px solid transparent;
-        width: 100%;
-        height: 1500px;
-        margin-top: 20px;
-    }
-
-    #aside-img {
-        border: 1px solid transparent;
-        width: 30%;
-        height: 1000px;
-        float: right;
-        overflow: hidden;
-        margin-right: 10vw;
-        margin-top: 5vw;
-    }
-
-    .booking-box {
-        background-color: inherit;
-        border: 1px solid transparent;
-        width: 40%;
+        order: 2;
+        width: 90%;
         height: auto;
-        margin-top: 40px;
-        margin-left: 10vw;
+        margin: 1vh auto;
     }
+}
 
-    /* Book form fieldset styling */
 
-    .form-book {
-        max-width: 33vw;
-    }
+/* Media queries <1280px */
+@media only screen and (min-width : 600px) and (max-width : 1279px) {
 
-    .form-book label {
-        display: block;
-        margin-bottom: 20px;
-    }
+    /* Image and text overlapping - long */
 
-    .form-book label>span {
-        float: left;
-        width: 100px;
-        color: #262624;
-        font-size: 17px;
-    }
-
-    fieldset {
-        border-radius: 15px;
-        margin: 40px 10px 70px 40px;
-        border: 1px solid #262624;
-        padding: 20px;
-        background: #e2e4d9;
-        box-shadow: 5px 10px 18px #888888;
-    }
-
-    legend {
-        color: #262624;
-        border-top: 1px solid #262624;
-        border-left: 1px solid #262624;
-        border-right: 1px solid #262624;
-        border-radius: 5px 5px 0px 0px;
-        background: #e2e4d9;
-        padding: 2px 15px 5px 15px;
-        font-size: 15px;
-        margin-left: 10px;
-    }
-
-    .form-book input,
-    .form-book select,
-    .form-book textarea {
-        border-radius: 3px;
-        border: 1px solid #91918a;
-        outline: none;
-        color: #262624;
-        padding: 5px 8px 5px 8px;
-        background: #edede4;
-        width: 60%;
-    }
-
-    #book-button {
-        background: #92c56d;
-        border: 1px solid #262624;
-        padding: 15px 20px 15px 20px;
-        color: #262624;
-        border-radius: 3px;
-        border-radius: 3px;
-        font-size: 25px;
-        font-weight: bold;
-        text-transform: uppercase;
-        margin-top: 25px;
-        margin-left: 100px;
-    }
-
-    /* Footer*/
-
-    footer {
-        background-color: #3c3e4a;
-        height: 45px;
-        position: relative;
-        width: 100%;
-        bottom: 0;
-        left: 0;
-        text-align: center;
+    .courses-long-flex1 {
+        border-bottom: 3px double #3c3e4a;
+        width: 70vw;
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 25px;
+        margin-top: 15px;
         box-sizing: border-box;
-        clear: both;
-        z-index: 1;
-        margin-top: 100px;
+        height: auto;
+        align-items: flex-start;
     }
 
-    /* Footer Social media links*/
-
-
-
-    #footer-socmedia {
-        margin: auto;
-
+    .courses-long-img {
+        width: 30%;
+        position: static;
+        margin: 8vh auto;
     }
 
-    #footer-socmedia a {
-        display: inline-block;
-        width: 75px;
-        height: 20px;
-        background-color: #3c3e4a;
-        border-radius: 2px;
-        font-size: 25px;
-        padding: 2px;
-        color: #e2e4d9;
+    .courses-long-text {
+        margin-top: 8vh;
+        border-radius: 0px;
+        border: none;
+        width: 65%;
         text-align: center;
-        line-height: 35px;
-        margin-left: 25px;
-        margin-top: 3px;
     }
 
-    #footer-socmedia a:hover {
-        transform: scale(1.1);
+    .courses-long-text h3 {
+        margin-top: 1vh;
+        font-size: large;
     }
 
-
-
-
-    /*Media queries 600 - 950px */
-    @media only screen and (min-width : 600px) and (max-width : 950px) {
-
-        /*Paw icon link*/
-
-        #paw {
-            font-size: 100%;
-
-        }
-
-        /*Nav bar */
-
-        #navbar {
-            padding: 5px 5px;
-            margin-top: 27px;
-        }
-
-        #navbar>ul {
-            margin-right: 0px;
-        }
-
-        #navbar li {
-            padding: 2px;
-        }
-
-        li a {
-            padding: 10px 1px;
-        }
-
-        .active {
-            padding: 5px 5px;
-        }
-
-        li a:hover {
-            padding: 5px 5px;
-        }
-
-        /*Index page*/
-
-        #hero-image {
-            height: 32vh;
-        }
-
-        #hero-text-box {
-            display: none;
-        }
-
-        #hero-text-out {
-            text-transform: uppercase;
-            text-decoration: underline;
-            margin: 2vh 0;
-            letter-spacing: 2px;
-            display: block;
-            text-align: center;
-        }
-
-        /* Index textboxes and book link*/
-
-        #index-flexbox {
-            flex-direction: column;
-            margin: 0px;
-            height: auto;
-            justify-content: space-around;
-        }
-
-        #index-flexbox h2 {
-            font-size: large;
-        }
-
-        .index-flex1 {
-            width: 85vw;
-            height: fit-content;
-            padding: 5px 30px 25px 30px;
-            margin-bottom: 5px;
-        }
-
-        .index-flex2 {
-            width: 50vw;
-            margin: 8px 0px;
-        }
-
-        .index-flex1>p {
-            margin-top: 2vh;
-            font-size: 100%;
-        }
-
-        #button-link {
-            font-size: 40px;
-        }
-
-        /*Inspiration video*/
-
-        iframe {
-            height: 50vh;
-            width: 80vw;
-        }
-
-        /*Book sheet*/
-
-        #aside-img {
-            display: none;
-        }
-
-        .booking-box {
-            width: 75%;
-        }
-
-        .form-book {
-            max-width: 75vw;
-        }
-
-
-
+    .courses-long-text ul {
+        text-align: start;
     }
-
-
-
-
-    /* Media queries <600px */
-
-    @media only screen and (max-width: 600px) {
-
-        /*Header and header elements*/
-
-        header {
-            height: 150px;
-        }
-
-        #paw {
-            font-size: 150%;
-            float: none;
-            text-align: center;
-            line-height: 15px;
-
-        }
-
-        #navbar {
-            float: none;
-            margin: 0 auto;
-            padding: 5px 5px;
-            max-width: 95vw;
-            border-radius: 18px;
-        }
-
-        #navbar>ul {
-            justify-content: space-evenly;
-            margin-right: 0px;
-        }
-
-        #navbar li {
-            padding: 2px;
-        }
-
-        li a {
-            padding: 10px 1px;
-        }
-
-        .active {
-            padding: 5px 5px;
-        }
-
-        li a:hover {
-            padding: 5px 5px;
-
-        }
-
-        /*all h2 except index sheet*/
-
-        .sheet-h2 {
-            font-size: x-large;
-            text-decoration: underline;
-        }
-
-        /*Index sheet*/
-
-        /* Hero image and text*/
-
-        #hero-image {
-            height: 20vh;
-        }
-
-        #hero-text-box {
-            display: none;
-        }
-
-        #hero-text-out {
-            text-transform: uppercase;
-            text-decoration: underline;
-            font-size: 1.2em;
-            margin-bottom: 1vh;
-            letter-spacing: 1px;
-            display: block;
-            text-align: center;
-        }
-
-        /* Index textboxes and book link*/
-
-        #index-flexbox {
-            flex-direction: column;
-            margin: 0px;
-        }
-
-        #index-flexbox h2 {
-            font-size: large;
-        }
-
-        .index-flex1 {
-            width: 85vw;
-            padding: 5px 8px 25px 8px;
-            margin-bottom: 5px;
-        }
-
-        .index-flex2 {
-            width: 50vw;
-            margin: 8px 0px 10vh 0px;
-        }
-
-        #button-link {
-            font-size: 40px;
-        }
-
-        /*Courses sheet*/
-
-
-        #course-intro {
-            border: 1px solid transparent;
-            margin: 2vh;
-        }
-
-        #course-intro>h2 {
-            text-transform: uppercase;
-            text-align: center;
-            letter-spacing: 2px;
-            font-size: 270%;
-            margin-top: 10px;
-            margin-bottom: 5px;
-            color: #262624;
-        }
-
-        #courses-intro-flexbox {
-            width: 80vw;
-            height: 85vh;
-        }
-
-        #intro-flex-reverse {
-            flex-direction: row;
-        }
-
-
-        .courses-intro-img {
-            display: none;
-        }
-
-
-        .leadership-short-header>i {
-            display: inline;
-        }
-
-        .leadership-short-text {
-            width: 70%;
-            padding: 5px;
-            border: 1px solid transparent;
-            line-height: normal;
-            font-size: small;
-        }
-
-        .leadership-short-text h2 {
-            text-transform: uppercase;
-            margin-bottom: 5px;
-            font-size: large;
-        }
-
-
-        /* Courses long section */
-
-
-        .courses-long-flex1 {
-            border-bottom: 3px double #3c3e4a;
-            width: 85vw;
-        }
-
-        .courses-long-img {
-            width: 50%;
-            position: static;
-            margin: 3vh auto;
-        }
-
-        .courses-long-text {
-            border: none;
-            box-shadow: none;
-            width: 90%;
-            margin: 2vh auto 7vh auto;
-            padding: 0px;
-        }
-
-        .courses-long-text h2 {
-            text-transform: uppercase;
-            text-align: center;
-            text-decoration: underline;
-        }
-
-        .courses-long-text h3 {
-            margin-top: 1vh;
-            font-size: large;
-        }
-
-
-
-        /*Book sheet*/
-
-        #aside-img {
-            display: none;
-        }
-
-        .booking-box-out {
-            height: 1100px;
-        }
-
-        .booking-box {
-
-            width: 90vw;
-            margin: 40px 0px;
-
-        }
-
-        /* Book form fieldset styling */
-
-
-
-        .form-book {
-            max-width: 85vw;
-        }
-
-        .form-book label {
-            margin-bottom: 10px;
-        }
-
-
-        fieldset {
-            margin: 30px 20px;
-            width: 75vw;
-
-        }
-
-        .form-book input,
-        .form-book select,
-        .form-book textarea {
-            width: 90%;
-        }
-
-        #book-button {
-            margin: 25px auto;
-        }
-
-
-
-        /*Inspiration sheet*/
-
-        #inspo-video-box {
-            height: auto;
-            margin-top: 5vh;
-        }
-
-        iframe {
-            height: 25vh;
-            width: 80vw;
-        }
-
-        #inspo-flexbox {
-            flex-flow: row wrap;
-            width: 75vw;
-            border: 1px solid transparent;
-            margin: 2vh auto;
-        }
-
-        .inspo-flex-1 {
-            order: 1;
-            width: 48%;
-            height: 30vh;
-            margin: 0 auto;
-
-        }
-
-        .inspo-flex-2 {
-            order: 2;
-            width: 90%;
-            height: auto;
-            margin: 1vh auto;
-
-
-        }
-    }
-
-
-    /* Media queries <1280px */
-
-    @media only screen and (min-width : 600px) and (max-width : 1279px) {
-
-        /* Image and text overlapping - long */
-
-        .courses-long-flex1 {
-            border-bottom: 3px double #3c3e4a;
-            width: 70vw;
-            display: flex;
-            justify-content: space-between;
-            padding-bottom: 25px;
-            margin-top: 15px;
-            box-sizing: border-box;
-            height: auto;
-            align-items: flex-start;
-        }
-
-        .courses-long-img {
-            width: 30%;
-            position: static;
-            margin: 8vh auto;
-        }
-
-        .courses-long-text {
-            margin-top: 8vh;
-            border-radius: 0px;
-            border: none;
-            width: 65%;
-            text-align: center;
-        }
-
-        .courses-long-text h3 {
-            margin-top: 1vh;
-            font-size: large;
-        }
-
-        .courses-long-text ul {
-            text-align: start;
-        }
-
-
-
-
-
-
-
-    }
+}
