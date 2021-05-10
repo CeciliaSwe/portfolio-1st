@@ -37,7 +37,7 @@ Images on index page and courses page are meant to emphasize the information on 
 #### Typography
 Noto Sans JP from Google Fonts is used, with Sans Serif as fallback font.
 #### Differences to Design
-* The Book button on the book page does not generate a resonse as indicated in the wireframes (just clears the form) due to limitations of HTML and CSS.
+* The Book button on the book page does not generate a response as indicated in the wireframes (just clears the form) due to limitations of HTML and CSS.
 * Images beside the book form on book page was replaced by font awesome icons in the form legend as this displayed more visually pleasing, while maintaining the visual cue for expected form contents.
 * Header was split in 2 rows for mobile devices to keep visual integrity and readibility of header and navbar.
 
