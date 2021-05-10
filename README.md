@@ -56,7 +56,7 @@ No submenues are used and the navbar indicates to the user where they are at all
 ### Wireframes
 Wireframes created usig Balsamiq are uploaded to the assets folder - [View](https://github.com/CeciliaSwe/portfolio-1st/tree/master/wireframes_balsamiq)
 
-Return to [top](#purpose)
+##### Return to [top](#purpose)
 
 ## Features
 * Internal links (within sheet and between sheets) - both in nav bar and on the sheets
@@ -67,6 +67,8 @@ Return to [top](#purpose)
 ### Future features
 * A booking form sending the data to the business owner - current form uses form method get and clears the form upon submit.
 * Integrated feedback for course availability (available/few left/full)
+
+##### Return to [top](#purpose)
 
 ## Technologies
 ### Languages used
@@ -95,6 +97,7 @@ Return to [top](#purpose)
 * [Am I Responsive?](http://ami.responsivedesign.is/)
 	* Used to generate the screenshots for responsive design.
 	
+##### Return to [top](#purpose)
 
 ## Testing
 
@@ -148,6 +151,8 @@ Noted Issues
 * Links in intro section correspond to the headers for each course in the long section and cuts off the image at some screen sizes depending on image placement.	
 * Selection arrows for Book page input filed for age are not clickable. Input field itself is functioning.					
 
+##### Return to [top](#purpose)
+
 ## Deployment
 ### GitHub Pages
 
@@ -158,6 +163,8 @@ The project was deployed to GitHub Pages through the below steps:
 3. In the left menu, scroll down to "Pages".
 4. Under "Source", click the dropdown and select "Branch: master", then click "Save".
 5. Once deployed, the now published site [link](https://ceciliaswe.github.io/portfolio-1st/) is found in the "Pages" section.
+
+##### Return to [top](#purpose)
 
 ## Credits
 ### Images and videos
@@ -180,6 +187,8 @@ All code has been custom written for this project, but inspiration and tutorital
 
 -   To my Mentor [Chris Quinn](https://github.com/10xOXR) for patience during technical difficulties, for pushing me to make smart choices and for inspiration for the testing matrix.
 -   To CI Tutor Jo for CSS debugging.
+
+##### Return to [top](#purpose)
 
 
 
