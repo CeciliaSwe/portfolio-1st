@@ -121,28 +121,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 	* Caused by flexitem overflowing the flexbox at last element on page before footer, fixed by setting flexbox height to auto instead of fixed height
 
 ### User stories testing
-All pages (Home, Courses, Inspiration and Book) were wireframed for Desktop, Tablet and smartphone using Balsamiq and are uploaded is a separate assets folder. 
-
-The header has a paw icon and the name "Playful Paws",  directly indication the company segment.
+1. The header has a paw icon and the name "Playful Paws",  directly indication the company segment.
 The landing page has a large hero image of dogs with associated text declaring "Leadership Courses". Textboxes with limited text declares both the philosphy and more about the company without scrolling.
 
-The purpose of this is to fulfill user story:
-"As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the organisation and what they offer."
+	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to understand the main purpose of the site at a glance and learn more about the organisation and what they offer."
 
 
-All pages has a Navigation menu at the top of the page that directs them to a new page. The active page will be highlighted in a green color to contrast the dark header.
-The navigation menu will remain fully visible on all devices due to its limited size but will centered for smaller devices. The index (home) page and courses page also has large links to the book page in the same green contrast color as the active page to improve user call to action.
+2. All pages has a Navigation menu at the top of the page that directs them to a new page. The active page will be highlighted in a green color to contrast the dark header. The navigation menu will remain fully visible on all devices due to its limited size but will centered for smaller devices. The index (home) page and courses page also has large links to the book page in the same green contrast color as the active page to improve user call to action.
 The intro section on the Courses page has internal links to each longer section for the course to give users who know what they are looking for direct access without scrolling.
 
-The purpose of this is to fulfill user story:
-"As a First Time user, I want to effortlessly navigate throughout the site to find content."
+  	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to effortlessly navigate throughout the site to find content."
 
 
-Custom CSS is used to make the Website responsive by the use of media queries with main cut-offs at <600px and <950px.
+3. Custom CSS is used to make the Website responsive by the use of media queries with main cut-offs at <600px and <950px.
 Text and images that will not display visually appealing on small devices will be disabled or replaced (for example, on mobile devices the small images in the courses page intro section are replaced by dog icons and the image on the book page is removed). 
 
-The purpose of this is to fulfill user story:
-"As a First Time user, I want to view the website and content clearly on different size devices."
+	The purpose of this is to fulfill user story:
+	"As a First Time user, I want to view the website and content clearly on different size devices."
+
+4. The book page has 3 fieldsets with all information required to be provided to book a course. Required fields are marked with an asterisk.
+  
+  	The purpose of this is to fulfill user story:
+	"As a Returning user, I want to be able to book a course."
+
+5. The inspiration page has an embedded YouTube video on Dog Leadership and a selection of inspiring images.
+  
+  	The purpose of this is to fulfill user story:
+	"As a Frequent user, I want to check if there are added content to the Inspiration page"
 
 
 ### Further Testing
@@ -151,7 +158,7 @@ The site was testes to to ensure consistency across browsers and screen sizen. F
 
 Noted Issues
 * Links in intro section correspond to the headers for each course in the long section and cuts off the image at some screen sizes depending on image placement.	
-* Selection arrows for Book page input filed for age are not clickable. Input field itself is functioning.					
+* Selection arrows for Book page input filed for age are only clickable intermittently using Mozilla Firefox . The input field itself is functioning and only allows numbers. I attempted to fix this with a moz-apperance property, but was not successful. 					
 
 ##### Return to [top](#portfolio-project-1---playful-paws)
 
