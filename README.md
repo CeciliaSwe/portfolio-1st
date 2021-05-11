@@ -104,8 +104,8 @@ Wireframes created usig Balsamiq are uploaded to the assets folder - [View](http
 ## Testing
 
 ### Validation
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project.
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project. All pages passed validation without errors or warnings.
+-   [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
 
 ### Bugs
