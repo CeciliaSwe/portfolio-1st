@@ -104,9 +104,19 @@ Wireframes created usig Balsamiq are uploaded to the assets folder - [View](http
 ## Testing
 
 ### Validation
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project. All pages passed validation without errors or warnings.
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project. All pages of the final website passed validation without errors or warnings.
 -   [W3C Markup Validator](https://validator.w3.org/nu/#textarea)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) 
+
+#### Fixed warnings and errors
+HTML 
+- Duplicate use of element id replaced by use of class
+- Headers added to each section
+- Omitted closing tags added
+
+CSS
+- Replaced "min-device-width" by "min-width" for Media queries
+- Border removed where border and background were identical color
 
 ### Bugs
 * Opaque part of the hero textbox floats on top on the header while the image itself clears behind
